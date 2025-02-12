@@ -7,12 +7,18 @@ using System.Threading.Tasks;
 
 namespace Smart.Core.Entities
 {
-    public class Specification : BaseEntity
+    public class Specification : BaseEntity, IAuditedEntity
     {
-        public string Name { get; set; }
         public string Key { get; set; }
         public string Value { get; set; }
         public int ProductId { get; set; }
         public Product Product { get; set; }
+
+        // Base Fields
+        public string CreatedBy { get; set; }
+        public DateTime CreatedOn { get; set; }
+        public string UpdatedBy { get; set; }
+        public DateTime UpdatedOn { get; set; }
+        public bool IsDeleted { get; set; }
     }
 }

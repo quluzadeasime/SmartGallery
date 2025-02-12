@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34714.143
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartGallery", "SmartGallery\SmartGallery.csproj", "{28562DF2-87AF-4B20-AFC8-93A183FF8EEA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Smart.API", "SmartGallery\Smart.API.csproj", "{28562DF2-87AF-4B20-AFC8-93A183FF8EEA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Smart.Core", "Smart.Core\Smart.Core.csproj", "{44C3739B-AF30-456B-9F68-A3E12BA7A68C}"
 EndProject
