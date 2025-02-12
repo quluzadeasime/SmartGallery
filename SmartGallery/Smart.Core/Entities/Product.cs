@@ -19,6 +19,7 @@ namespace Smart.Core.Entities
         public int RatingCount { get; set; }
         public Category Category { get; set; }
         public string Description { get; set; }
+        public ICollection<Color> Colors { get; set; }
         public ICollection<ProductImage> ProductImages { get; set; }
         public ICollection<Specification> Specifications { get; set; }
 

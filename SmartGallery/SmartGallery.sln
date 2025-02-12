@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34714.143
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Smart.API", "SmartGallery\Smart.API.csproj", "{28562DF2-87AF-4B20-AFC8-93A183FF8EEA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Smart.API", "SmartGallery\Smart.API.csproj", "{28562DF2-87AF-4B20-AFC8-93A183FF8EEA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Smart.Core", "Smart.Core\Smart.Core.csproj", "{44C3739B-AF30-456B-9F68-A3E12BA7A68C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Smart.Core", "Smart.Core\Smart.Core.csproj", "{44C3739B-AF30-456B-9F68-A3E12BA7A68C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Smart.DAL", "Smart.DAL\Smart.DAL.csproj", "{2DA3ED07-A15B-420F-9D2C-A3E46A506242}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Smart.DAL", "Smart.DAL\Smart.DAL.csproj", "{2DA3ED07-A15B-420F-9D2C-A3E46A506242}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Smart.Business", "Smart.Business\Smart.Business.csproj", "{F0832F7A-2A6A-4DB9-8C9E-D6A7A3DCBC32}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Smart.Business", "Smart.Business\Smart.Business.csproj", "{F0832F7A-2A6A-4DB9-8C9E-D6A7A3DCBC32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Smart.Shared", "Smart.Shared\Smart.Shared.csproj", "{A878BD6C-A549-48AB-899F-46CF76E895EA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{F0832F7A-2A6A-4DB9-8C9E-D6A7A3DCBC32}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F0832F7A-2A6A-4DB9-8C9E-D6A7A3DCBC32}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F0832F7A-2A6A-4DB9-8C9E-D6A7A3DCBC32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A878BD6C-A549-48AB-899F-46CF76E895EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A878BD6C-A549-48AB-899F-46CF76E895EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A878BD6C-A549-48AB-899F-46CF76E895EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A878BD6C-A549-48AB-899F-46CF76E895EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

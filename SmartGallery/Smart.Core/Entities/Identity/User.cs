@@ -6,5 +6,8 @@ using System.Threading.Tasks;
 
 namespace Smart.Core.Entities.Identity
 {
-    public class User { }
+    public class User 
+    {
+        public int Id { get; set; }
+    }
 }
