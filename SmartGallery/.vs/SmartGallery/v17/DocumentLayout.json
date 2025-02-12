@@ -1,26 +1,46 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\",
+  "WorkspaceRootPath": "C:\\Users\\ilkin\\OneDrive\\Desktop\\SmartGallery\\SmartGallery\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{44C3739B-AF30-456B-9F68-A3E12BA7A68C}|Smart.Core\\Smart.Core.csproj|c:\\users\\asime\\desktop\\smartgallery\\smartgallery\\smart.core\\entities\\identity\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44C3739B-AF30-456B-9F68-A3E12BA7A68C}|Smart.Core\\Smart.Core.csproj|solutionrelative:smart.core\\entities\\identity\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F0832F7A-2A6A-4DB9-8C9E-D6A7A3DCBC32}|Smart.Business\\Smart.Business.csproj|c:\\users\\ilkin\\onedrive\\desktop\\smartgallery\\smartgallery\\smart.business\\helpers\\slugcreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0832F7A-2A6A-4DB9-8C9E-D6A7A3DCBC32}|Smart.Business\\Smart.Business.csproj|solutionrelative:smart.business\\helpers\\slugcreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0832F7A-2A6A-4DB9-8C9E-D6A7A3DCBC32}|Smart.Business\\Smart.Business.csproj|c:\\users\\asime\\desktop\\smartgallery\\smartgallery\\smart.business\\dtos\\commons\\iauditedentitydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0832F7A-2A6A-4DB9-8C9E-D6A7A3DCBC32}|Smart.Business\\Smart.Business.csproj|solutionrelative:smart.business\\dtos\\commons\\iauditedentitydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F0832F7A-2A6A-4DB9-8C9E-D6A7A3DCBC32}|Smart.Business\\Smart.Business.csproj|c:\\users\\ilkin\\onedrive\\desktop\\smartgallery\\smartgallery\\smart.business\\helpers\\jwtgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0832F7A-2A6A-4DB9-8C9E-D6A7A3DCBC32}|Smart.Business\\Smart.Business.csproj|solutionrelative:smart.business\\helpers\\jwtgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0832F7A-2A6A-4DB9-8C9E-D6A7A3DCBC32}|Smart.Business\\Smart.Business.csproj|c:\\users\\asime\\desktop\\smartgallery\\smartgallery\\smart.business\\dtos\\commons\\baseentitydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0832F7A-2A6A-4DB9-8C9E-D6A7A3DCBC32}|Smart.Business\\Smart.Business.csproj|solutionrelative:smart.business\\dtos\\commons\\baseentitydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F0832F7A-2A6A-4DB9-8C9E-D6A7A3DCBC32}|Smart.Business\\Smart.Business.csproj|c:\\users\\asime\\desktop\\smartgallery\\smartgallery\\smart.business\\helpers\\enumschemafilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F0832F7A-2A6A-4DB9-8C9E-D6A7A3DCBC32}|Smart.Business\\Smart.Business.csproj|c:\\users\\ilkin\\onedrive\\desktop\\smartgallery\\smartgallery\\smart.business\\helpers\\enumschemafilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F0832F7A-2A6A-4DB9-8C9E-D6A7A3DCBC32}|Smart.Business\\Smart.Business.csproj|solutionrelative:smart.business\\helpers\\enumschemafilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0832F7A-2A6A-4DB9-8C9E-D6A7A3DCBC32}|Smart.Business\\Smart.Business.csproj|c:\\users\\asime\\desktop\\smartgallery\\smartgallery\\smart.business\\helpers\\jwtgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0832F7A-2A6A-4DB9-8C9E-D6A7A3DCBC32}|Smart.Business\\Smart.Business.csproj|solutionrelative:smart.business\\helpers\\jwtgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{28562DF2-87AF-4B20-AFC8-93A183FF8EEA}|SmartGallery\\Smart.API.csproj|c:\\users\\ilkin\\onedrive\\desktop\\smartgallery\\smartgallery\\smartgallery\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28562DF2-87AF-4B20-AFC8-93A183FF8EEA}|SmartGallery\\Smart.API.csproj|solutionrelative:smartgallery\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44C3739B-AF30-456B-9F68-A3E12BA7A68C}|Smart.Core\\Smart.Core.csproj|c:\\users\\ilkin\\onedrive\\desktop\\smartgallery\\smartgallery\\smart.core\\enums\\euserrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44C3739B-AF30-456B-9F68-A3E12BA7A68C}|Smart.Core\\Smart.Core.csproj|solutionrelative:smart.core\\enums\\euserrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DA3ED07-A15B-420F-9D2C-A3E46A506242}|Smart.DAL\\Smart.DAL.csproj|c:\\users\\ilkin\\onedrive\\desktop\\smartgallery\\smartgallery\\smart.dal\\presistence\\automatedmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DA3ED07-A15B-420F-9D2C-A3E46A506242}|Smart.DAL\\Smart.DAL.csproj|solutionrelative:smart.dal\\presistence\\automatedmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DA3ED07-A15B-420F-9D2C-A3E46A506242}|Smart.DAL\\Smart.DAL.csproj|c:\\users\\ilkin\\onedrive\\desktop\\smartgallery\\smartgallery\\smart.dal\\presistence\\appdbcontextseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DA3ED07-A15B-420F-9D2C-A3E46A506242}|Smart.DAL\\Smart.DAL.csproj|solutionrelative:smart.dal\\presistence\\appdbcontextseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DA3ED07-A15B-420F-9D2C-A3E46A506242}|Smart.DAL\\Smart.DAL.csproj|c:\\users\\ilkin\\onedrive\\desktop\\smartgallery\\smartgallery\\smart.dal\\presistence\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DA3ED07-A15B-420F-9D2C-A3E46A506242}|Smart.DAL\\Smart.DAL.csproj|solutionrelative:smart.dal\\presistence\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28562DF2-87AF-4B20-AFC8-93A183FF8EEA}|SmartGallery\\Smart.API.csproj|c:\\users\\ilkin\\onedrive\\desktop\\smartgallery\\smartgallery\\smartgallery\\smartgallery.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{28562DF2-87AF-4B20-AFC8-93A183FF8EEA}|SmartGallery\\Smart.API.csproj|solutionrelative:smartgallery\\smartgallery.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A878BD6C-A549-48AB-899F-46CF76E895EA}|Smart.Shared\\Smart.Shared.csproj|c:\\users\\ilkin\\onedrive\\desktop\\smartgallery\\smartgallery\\smart.shared\\implementations\\claimservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A878BD6C-A549-48AB-899F-46CF76E895EA}|Smart.Shared\\Smart.Shared.csproj|solutionrelative:smart.shared\\implementations\\claimservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,83 +50,144 @@
       "DocumentGroups": [
         {
           "DockedWidth": 1114,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IAuditedEntityDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\Smart.Business\\DTOs\\Commons\\IAuditedEntityDTO.cs",
-              "RelativeDocumentMoniker": "Smart.Business\\DTOs\\Commons\\IAuditedEntityDTO.cs",
-              "ToolTip": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\Smart.Business\\DTOs\\Commons\\IAuditedEntityDTO.cs",
-              "RelativeToolTip": "Smart.Business\\DTOs\\Commons\\IAuditedEntityDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T13:14:10.416Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BaseEntityDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\Smart.Business\\DTOs\\Commons\\BaseEntityDTO.cs",
-              "RelativeDocumentMoniker": "Smart.Business\\DTOs\\Commons\\BaseEntityDTO.cs",
-              "ToolTip": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\Smart.Business\\DTOs\\Commons\\BaseEntityDTO.cs",
-              "RelativeToolTip": "Smart.Business\\DTOs\\Commons\\BaseEntityDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T13:12:40.655Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EnumSchemaFilter.cs",
-              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\Smart.Business\\Helpers\\EnumSchemaFilter.cs",
-              "RelativeDocumentMoniker": "Smart.Business\\Helpers\\EnumSchemaFilter.cs",
-              "ToolTip": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\Smart.Business\\Helpers\\EnumSchemaFilter.cs",
-              "RelativeToolTip": "Smart.Business\\Helpers\\EnumSchemaFilter.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T13:10:36.262Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\Smart.Core\\Entities\\Identity\\User.cs",
-              "RelativeDocumentMoniker": "Smart.Core\\Entities\\Identity\\User.cs",
-              "ToolTip": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\Smart.Core\\Entities\\Identity\\User.cs",
-              "RelativeToolTip": "Smart.Core\\Entities\\Identity\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T13:10:14.024Z",
-              "EditorCaption": ""
-            },
-            {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SlugCreator.cs",
+              "DocumentMoniker": "C:\\Users\\ilkin\\OneDrive\\Desktop\\SmartGallery\\SmartGallery\\Smart.Business\\Helpers\\SlugCreator.cs",
+              "RelativeDocumentMoniker": "Smart.Business\\Helpers\\SlugCreator.cs",
+              "ToolTip": "C:\\Users\\ilkin\\OneDrive\\Desktop\\SmartGallery\\SmartGallery\\Smart.Business\\Helpers\\SlugCreator.cs",
+              "RelativeToolTip": "Smart.Business\\Helpers\\SlugCreator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T16:51:44.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "JWTGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\ilkin\\OneDrive\\Desktop\\SmartGallery\\SmartGallery\\Smart.Business\\Helpers\\JWTGenerator.cs",
+              "RelativeDocumentMoniker": "Smart.Business\\Helpers\\JWTGenerator.cs",
+              "ToolTip": "C:\\Users\\ilkin\\OneDrive\\Desktop\\SmartGallery\\SmartGallery\\Smart.Business\\Helpers\\JWTGenerator.cs",
+              "RelativeToolTip": "Smart.Business\\Helpers\\JWTGenerator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T16:51:43.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EnumSchemaFilter.cs",
+              "DocumentMoniker": "C:\\Users\\ilkin\\OneDrive\\Desktop\\SmartGallery\\SmartGallery\\Smart.Business\\Helpers\\EnumSchemaFilter.cs",
+              "RelativeDocumentMoniker": "Smart.Business\\Helpers\\EnumSchemaFilter.cs",
+              "ToolTip": "C:\\Users\\ilkin\\OneDrive\\Desktop\\SmartGallery\\SmartGallery\\Smart.Business\\Helpers\\EnumSchemaFilter.cs",
+              "RelativeToolTip": "Smart.Business\\Helpers\\EnumSchemaFilter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T16:51:41.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SmartGallery.http",
+              "DocumentMoniker": "C:\\Users\\ilkin\\OneDrive\\Desktop\\SmartGallery\\SmartGallery\\SmartGallery\\SmartGallery.http",
+              "RelativeDocumentMoniker": "SmartGallery\\SmartGallery.http",
+              "ToolTip": "C:\\Users\\ilkin\\OneDrive\\Desktop\\SmartGallery\\SmartGallery\\SmartGallery\\SmartGallery.http",
+              "RelativeToolTip": "SmartGallery\\SmartGallery.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-02-12T16:43:30.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ilkin\\OneDrive\\Desktop\\SmartGallery\\SmartGallery\\SmartGallery\\Program.cs",
+              "RelativeDocumentMoniker": "SmartGallery\\Program.cs",
+              "ToolTip": "C:\\Users\\ilkin\\OneDrive\\Desktop\\SmartGallery\\SmartGallery\\SmartGallery\\Program.cs",
+              "RelativeToolTip": "SmartGallery\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T16:41:47.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AutomatedMigration.cs",
+              "DocumentMoniker": "C:\\Users\\ilkin\\OneDrive\\Desktop\\SmartGallery\\SmartGallery\\Smart.DAL\\Presistence\\AutomatedMigration.cs",
+              "RelativeDocumentMoniker": "Smart.DAL\\Presistence\\AutomatedMigration.cs",
+              "ToolTip": "C:\\Users\\ilkin\\OneDrive\\Desktop\\SmartGallery\\SmartGallery\\Smart.DAL\\Presistence\\AutomatedMigration.cs",
+              "RelativeToolTip": "Smart.DAL\\Presistence\\AutomatedMigration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T16:38:05.713Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "JWTGenerator.cs",
-              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\Smart.Business\\Helpers\\JWTGenerator.cs",
-              "RelativeDocumentMoniker": "Smart.Business\\Helpers\\JWTGenerator.cs",
-              "ToolTip": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\Smart.Business\\Helpers\\JWTGenerator.cs",
-              "RelativeToolTip": "Smart.Business\\Helpers\\JWTGenerator.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAIAwwBYAAAA4AAAA",
+              "Title": "EUserRole.cs",
+              "DocumentMoniker": "C:\\Users\\ilkin\\OneDrive\\Desktop\\SmartGallery\\SmartGallery\\Smart.Core\\Enums\\EUserRole.cs",
+              "RelativeDocumentMoniker": "Smart.Core\\Enums\\EUserRole.cs",
+              "ToolTip": "C:\\Users\\ilkin\\OneDrive\\Desktop\\SmartGallery\\SmartGallery\\Smart.Core\\Enums\\EUserRole.cs",
+              "RelativeToolTip": "Smart.Core\\Enums\\EUserRole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T13:02:38.08Z",
+              "WhenOpened": "2025-02-12T16:35:42.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AppDBContextSeed.cs",
+              "DocumentMoniker": "C:\\Users\\ilkin\\OneDrive\\Desktop\\SmartGallery\\SmartGallery\\Smart.DAL\\Presistence\\AppDBContextSeed.cs",
+              "RelativeDocumentMoniker": "Smart.DAL\\Presistence\\AppDBContextSeed.cs",
+              "ToolTip": "C:\\Users\\ilkin\\OneDrive\\Desktop\\SmartGallery\\SmartGallery\\Smart.DAL\\Presistence\\AppDBContextSeed.cs",
+              "RelativeToolTip": "Smart.DAL\\Presistence\\AppDBContextSeed.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAswA4AAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T16:35:08.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ClaimService.cs",
+              "DocumentMoniker": "C:\\Users\\ilkin\\OneDrive\\Desktop\\SmartGallery\\SmartGallery\\Smart.Shared\\Implementations\\ClaimService.cs",
+              "RelativeDocumentMoniker": "Smart.Shared\\Implementations\\ClaimService.cs",
+              "ToolTip": "C:\\Users\\ilkin\\OneDrive\\Desktop\\SmartGallery\\SmartGallery\\Smart.Shared\\Implementations\\ClaimService.cs",
+              "RelativeToolTip": "Smart.Shared\\Implementations\\ClaimService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T16:28:25.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AppDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\ilkin\\OneDrive\\Desktop\\SmartGallery\\SmartGallery\\Smart.DAL\\Presistence\\AppDBContext.cs",
+              "RelativeDocumentMoniker": "Smart.DAL\\Presistence\\AppDBContext.cs",
+              "ToolTip": "C:\\Users\\ilkin\\OneDrive\\Desktop\\SmartGallery\\SmartGallery\\Smart.DAL\\Presistence\\AppDBContext.cs",
+              "RelativeToolTip": "Smart.DAL\\Presistence\\AppDBContext.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwCQAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T16:20:43.981Z",
               "EditorCaption": ""
             }
           ]

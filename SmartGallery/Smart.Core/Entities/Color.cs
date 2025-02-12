@@ -10,7 +10,7 @@ namespace Smart.Core.Entities
     public class Color : BaseEntity, IAuditedEntity
     {
         public string Name { get; set; }
-        public ICollection<Product> Products { get; set; }
+        public ICollection<ProductColor> Products { get; set; }
 
         // Base Fields
         public string CreatedBy { get; set; }

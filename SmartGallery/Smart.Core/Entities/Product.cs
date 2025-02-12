@@ -13,13 +13,13 @@ namespace Smart.Core.Entities
         public int BrandId { get; set; }
         public Brand Brand { get; set; }
         public float Rating { get; set; }
-        public double Price { get; set; }
+        public decimal Price { get; set; }
         public int? Discount { get; set; }
         public int CategoryId { get; set; }
         public int RatingCount { get; set; }
         public Category Category { get; set; }
         public string Description { get; set; }
-        public ICollection<Color> Colors { get; set; }
+        public ICollection<ProductColor> Colors { get; set; }
         public ICollection<ProductImage> ProductImages { get; set; }
         public ICollection<Specification> Specifications { get; set; }
 

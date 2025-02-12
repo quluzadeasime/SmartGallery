@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Smart.Core.Entities
 {
-    public class Subscribe : BaseEntity
+    public class Subscription : BaseEntity
     {
         public string Email { get; set; }
     }

@@ -5333,23 +5333,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Asime\\.nuget\\packages\\": {},
+    "C:\\Users\\ilkin\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\Smart.DAL\\Smart.DAL.csproj",
+      "projectUniqueName": "C:\\Users\\ilkin\\OneDrive\\Desktop\\SmartGallery\\SmartGallery\\Smart.DAL\\Smart.DAL.csproj",
       "projectName": "Smart.DAL",
-      "projectPath": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\Smart.DAL\\Smart.DAL.csproj",
-      "packagesPath": "C:\\Users\\Asime\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\Smart.DAL\\obj\\",
+      "projectPath": "C:\\Users\\ilkin\\OneDrive\\Desktop\\SmartGallery\\SmartGallery\\Smart.DAL\\Smart.DAL.csproj",
+      "packagesPath": "C:\\Users\\ilkin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ilkin\\OneDrive\\Desktop\\SmartGallery\\SmartGallery\\Smart.DAL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Asime\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ilkin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -5364,8 +5364,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\Smart.Shared\\Smart.Shared.csproj": {
-              "projectPath": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\Smart.Shared\\Smart.Shared.csproj"
+            "C:\\Users\\ilkin\\OneDrive\\Desktop\\SmartGallery\\SmartGallery\\Smart.Shared\\Smart.Shared.csproj": {
+              "projectPath": "C:\\Users\\ilkin\\OneDrive\\Desktop\\SmartGallery\\SmartGallery\\Smart.Shared\\Smart.Shared.csproj"
             }
           }
         }
@@ -5378,8 +5378,9 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "direct"
-      }
+        "auditMode": "all"
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -5430,7 +5431,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
