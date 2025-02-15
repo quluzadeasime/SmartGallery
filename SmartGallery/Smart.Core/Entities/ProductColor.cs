@@ -7,10 +7,12 @@ using System.Threading.Tasks;
 
 namespace Smart.Core.Entities
 {
-    public class Color : BaseEntity, IAuditedEntity
+    public class ProductColor : BaseEntity, IAuditedEntity
     {
-        public string Name { get; set; }
-        public ICollection<ProductColor> Products { get; set; }
+        public int ColorId { get; set; }
+        public Color Color { get; set; }
+        public int ProductId { get; set; }
+        public Product Product { get; set; }
 
         // Base Fields
         public string CreatedBy { get; set; }

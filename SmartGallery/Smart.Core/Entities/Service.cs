@@ -12,6 +12,7 @@ namespace Smart.Core.Entities
         public string Icon { get; set; }
         public string Title { get; set; }
         public string Description { get; set; }
+
         // Base Fields
         public string CreatedBy { get; set; }
         public DateTime CreatedOn { get; set; }

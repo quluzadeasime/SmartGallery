@@ -5,10 +5,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Smart.Core.Entities
+namespace Smart.DAL.Handlers.Interfaces
 {
-    public class Subscribe : BaseEntity
+    public interface IHandler<T> where T:BaseEntity
     {
-        public string Email { get; set; }
+        T HandleEntityAsync(T entity);
     }
 }

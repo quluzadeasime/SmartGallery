@@ -15,6 +15,23 @@ namespace Smart.Core.Entities
         public string LogoUrl { get; set; }
         public string Instagram { get; set; }
         public string Facebook { get; set; }
+        public ICollection<WorkHours> WorkHours { get; set; }
+
+        // Base Fields
+        public string CreatedBy { get; set; }
+        public DateTime CreatedOn { get; set; }
+        public string UpdatedBy { get; set; }
+        public DateTime UpdatedOn { get; set; }
+        public bool IsDeleted { get; set; }
+    }
+
+    public class WorkHours : BaseEntity, IAuditedEntity
+    {
+        public int SettingId { get; set; }
+        public Setting Setting { get; set; }
+        public sbyte WeekDay { get; set; }
+        public DateTime StartHour { get; set; }
+        public DateTime EndHour { get; set; }
 
         // Base Fields
         public string CreatedBy { get; set; }
