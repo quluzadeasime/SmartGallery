@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Smart.Business")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+be173c9db4829e72402571231c0b4725c7f0b700")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4321d37628f14a447a81bb8503e8d4f5a7c903cf")]
 [assembly: System.Reflection.AssemblyProductAttribute("Smart.Business")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Smart.Business")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
