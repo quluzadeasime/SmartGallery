@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Smart.DAL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4321d37628f14a447a81bb8503e8d4f5a7c903cf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9cb66c6429b905e8e4456c5b83fb943fd9318d7f")]
 [assembly: System.Reflection.AssemblyProductAttribute("Smart.DAL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Smart.DAL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

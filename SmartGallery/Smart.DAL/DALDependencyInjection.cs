@@ -1,8 +1,11 @@
 ﻿using App.DAL.Presistence;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Smart.Core.Entities.Identity;
+using Smart.DAL.Repositories.Implementations;
+using Smart.DAL.Repositories.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,13 +21,20 @@ namespace Smart.DAL
             services.AddDatabase(configuration);
             services.AddIdentity();
             services.AddRepositories();
+            services.AddHttpContextAccessor();
 
             return services;
         }
 
         private static void AddDatabase(this IServiceCollection services, IConfiguration configuration)
         {
-            // SQL database connection here!!!
+            var connectionString = Environment.GetEnvironmentVariable("CloudConnection")
+                                     ?? configuration.GetConnectionString("DefaultConnection");
+
+            services.AddDbContext<AppDbContext>(opt =>
+            {
+                opt.UseSqlServer(connectionString);
+            });
         }
 
         private static void AddIdentity(this IServiceCollection services)
@@ -53,7 +63,23 @@ namespace Smart.DAL
 
         private static void AddRepositories(this IServiceCollection services)
         {
-            // Repositories adding here!!!
+            services.AddScoped<IBrandRepository, BrandRepository>();
+
+            services.AddScoped<ICategoryRepository, CategoryRepository>();
+
+            services.AddScoped<IColorRepository, ColorRepository>();
+
+            services.AddScoped<IContactRepository, ContactRepository>();
+
+            services.AddScoped<ISettingRepository, SettingRepository>();
+
+            services.AddScoped<IServiceRepository, ServiceRepository>();
+
+            services.AddScoped<ISpesificationRepository, SpesificationRepository>();
+
+            services.AddScoped<IProductRepository, ProductRepository>();
+            services.AddScoped<IProductImageRepository, ProductImageRepository>();
+            services.AddScoped<IProductColorRepository, ProductColorRepository>();
         }
     }
 }

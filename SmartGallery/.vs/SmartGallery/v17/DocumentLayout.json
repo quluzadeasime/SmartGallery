@@ -3,12 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2DA3ED07-A15B-420F-9D2C-A3E46A506242}|Smart.DAL\\Smart.DAL.csproj|c:\\users\\asime\\desktop\\smartgallery\\smartgallery\\smart.dal\\daldependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2DA3ED07-A15B-420F-9D2C-A3E46A506242}|Smart.DAL\\Smart.DAL.csproj|solutionrelative:smart.dal\\daldependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2DA3ED07-A15B-420F-9D2C-A3E46A506242}|Smart.DAL\\Smart.DAL.csproj|c:\\users\\asime\\desktop\\smartgallery\\smartgallery\\smart.dal\\presistence\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DA3ED07-A15B-420F-9D2C-A3E46A506242}|Smart.DAL\\Smart.DAL.csproj|solutionrelative:smart.dal\\presistence\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DA3ED07-A15B-420F-9D2C-A3E46A506242}|Smart.DAL\\Smart.DAL.csproj|c:\\users\\asime\\desktop\\smartgallery\\smartgallery\\smart.dal\\presistence\\automatedmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DA3ED07-A15B-420F-9D2C-A3E46A506242}|Smart.DAL\\Smart.DAL.csproj|solutionrelative:smart.dal\\presistence\\automatedmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28562DF2-87AF-4B20-AFC8-93A183FF8EEA}|SmartGallery\\Smart.API.csproj|c:\\users\\asime\\desktop\\smartgallery\\smartgallery\\smartgallery\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28562DF2-87AF-4B20-AFC8-93A183FF8EEA}|SmartGallery\\Smart.API.csproj|solutionrelative:smartgallery\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A878BD6C-A549-48AB-899F-46CF76E895EA}|Smart.Shared\\Smart.Shared.csproj|c:\\users\\asime\\desktop\\smartgallery\\smartgallery\\smart.shared\\implementations\\claimservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A878BD6C-A549-48AB-899F-46CF76E895EA}|Smart.Shared\\Smart.Shared.csproj|solutionrelative:smart.shared\\implementations\\claimservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A878BD6C-A549-48AB-899F-46CF76E895EA}|Smart.Shared\\Smart.Shared.csproj|c:\\users\\asime\\desktop\\smartgallery\\smartgallery\\smart.shared\\interfaces\\iclaimservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A878BD6C-A549-48AB-899F-46CF76E895EA}|Smart.Shared\\Smart.Shared.csproj|solutionrelative:smart.shared\\interfaces\\iclaimservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28562DF2-87AF-4B20-AFC8-93A183FF8EEA}|SmartGallery\\Smart.API.csproj|c:\\users\\asime\\desktop\\smartgallery\\smartgallery\\smartgallery\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{28562DF2-87AF-4B20-AFC8-93A183FF8EEA}|SmartGallery\\Smart.API.csproj|solutionrelative:smartgallery\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28562DF2-87AF-4B20-AFC8-93A183FF8EEA}|SmartGallery\\Smart.API.csproj|c:\\users\\asime\\desktop\\smartgallery\\smartgallery\\smartgallery\\apidependecyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28562DF2-87AF-4B20-AFC8-93A183FF8EEA}|SmartGallery\\Smart.API.csproj|solutionrelative:smartgallery\\apidependecyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0832F7A-2A6A-4DB9-8C9E-D6A7A3DCBC32}|Smart.Business\\Smart.Business.csproj|c:\\users\\asime\\desktop\\smartgallery\\smartgallery\\smart.business\\smart.business.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F0832F7A-2A6A-4DB9-8C9E-D6A7A3DCBC32}|Smart.Business\\Smart.Business.csproj|solutionrelative:smart.business\\smart.business.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F0832F7A-2A6A-4DB9-8C9E-D6A7A3DCBC32}|Smart.Business\\Smart.Business.csproj|c:\\users\\asime\\desktop\\smartgallery\\smartgallery\\smart.business\\businessdependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F0832F7A-2A6A-4DB9-8C9E-D6A7A3DCBC32}|Smart.Business\\Smart.Business.csproj|solutionrelative:smart.business\\businessdependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0832F7A-2A6A-4DB9-8C9E-D6A7A3DCBC32}|Smart.Business\\Smart.Business.csproj|c:\\users\\asime\\desktop\\smartgallery\\smartgallery\\smart.business\\helpers\\namehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0832F7A-2A6A-4DB9-8C9E-D6A7A3DCBC32}|Smart.Business\\Smart.Business.csproj|solutionrelative:smart.business\\helpers\\namehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DA3ED07-A15B-420F-9D2C-A3E46A506242}|Smart.DAL\\Smart.DAL.csproj|c:\\users\\asime\\desktop\\smartgallery\\smartgallery\\smart.dal\\daldependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DA3ED07-A15B-420F-9D2C-A3E46A506242}|Smart.DAL\\Smart.DAL.csproj|solutionrelative:smart.dal\\daldependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DA3ED07-A15B-420F-9D2C-A3E46A506242}|Smart.DAL\\Smart.DAL.csproj|c:\\users\\asime\\desktop\\smartgallery\\smartgallery\\smart.dal\\repositories\\implementations\\settingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DA3ED07-A15B-420F-9D2C-A3E46A506242}|Smart.DAL\\Smart.DAL.csproj|solutionrelative:smart.dal\\repositories\\implementations\\settingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 1114,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,29 +74,154 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DALDependencyInjection.cs",
-              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\Smart.DAL\\DALDependencyInjection.cs",
-              "RelativeDocumentMoniker": "Smart.DAL\\DALDependencyInjection.cs",
-              "ToolTip": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\Smart.DAL\\DALDependencyInjection.cs",
-              "RelativeToolTip": "Smart.DAL\\DALDependencyInjection.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAiAAAA",
+              "DocumentIndex": 1,
+              "Title": "AutomatedMigration.cs",
+              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\Smart.DAL\\Presistence\\AutomatedMigration.cs",
+              "RelativeDocumentMoniker": "Smart.DAL\\Presistence\\AutomatedMigration.cs",
+              "ToolTip": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\Smart.DAL\\Presistence\\AutomatedMigration.cs",
+              "RelativeToolTip": "Smart.DAL\\Presistence\\AutomatedMigration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T19:03:35.891Z",
+              "WhenOpened": "2025-03-02T14:55:48.051Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
+              "Title": "IClaimService.cs",
+              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\Smart.Shared\\Interfaces\\IClaimService.cs",
+              "RelativeDocumentMoniker": "Smart.Shared\\Interfaces\\IClaimService.cs",
+              "ToolTip": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\Smart.Shared\\Interfaces\\IClaimService.cs",
+              "RelativeToolTip": "Smart.Shared\\Interfaces\\IClaimService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T14:53:59.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ClaimService.cs",
+              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\Smart.Shared\\Implementations\\ClaimService.cs",
+              "RelativeDocumentMoniker": "Smart.Shared\\Implementations\\ClaimService.cs",
+              "ToolTip": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\Smart.Shared\\Implementations\\ClaimService.cs",
+              "RelativeToolTip": "Smart.Shared\\Implementations\\ClaimService.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAxwBwAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T14:53:53.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\Smart.DAL\\Presistence\\AppDBContext.cs",
+              "RelativeDocumentMoniker": "Smart.DAL\\Presistence\\AppDBContext.cs",
+              "ToolTip": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\Smart.DAL\\Presistence\\AppDBContext.cs",
+              "RelativeToolTip": "Smart.DAL\\Presistence\\AppDBContext.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwBYAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T14:49:19.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\SmartGallery\\appsettings.json",
+              "RelativeDocumentMoniker": "SmartGallery\\appsettings.json",
+              "ToolTip": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\SmartGallery\\appsettings.json",
+              "RelativeToolTip": "SmartGallery\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-02T14:44:35.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Smart.Business.csproj",
+              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\Smart.Business\\Smart.Business.csproj",
+              "RelativeDocumentMoniker": "Smart.Business\\Smart.Business.csproj",
+              "ToolTip": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\Smart.Business\\Smart.Business.csproj",
+              "RelativeToolTip": "Smart.Business\\Smart.Business.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-02T14:44:15.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\SmartGallery\\Program.cs",
+              "RelativeDocumentMoniker": "SmartGallery\\Program.cs",
+              "ToolTip": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\SmartGallery\\Program.cs",
+              "RelativeToolTip": "SmartGallery\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T14:31:51.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "APIDependecyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\SmartGallery\\APIDependecyInjection.cs",
+              "RelativeDocumentMoniker": "SmartGallery\\APIDependecyInjection.cs",
+              "ToolTip": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\SmartGallery\\APIDependecyInjection.cs",
+              "RelativeToolTip": "SmartGallery\\APIDependecyInjection.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAUwBEAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T14:29:20.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "NameHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\Smart.Business\\Helpers\\NameHelper.cs",
+              "RelativeDocumentMoniker": "Smart.Business\\Helpers\\NameHelper.cs",
+              "ToolTip": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\Smart.Business\\Helpers\\NameHelper.cs",
+              "RelativeToolTip": "Smart.Business\\Helpers\\NameHelper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T14:26:33.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "BusinessDependencyInjection.cs",
               "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\Smart.Business\\BusinessDependencyInjection.cs",
               "RelativeDocumentMoniker": "Smart.Business\\BusinessDependencyInjection.cs",
               "ToolTip": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\Smart.Business\\BusinessDependencyInjection.cs",
               "RelativeToolTip": "Smart.Business\\BusinessDependencyInjection.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAcAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAuwBEAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T18:58:26.58Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-02T14:13:40.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DALDependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\Smart.DAL\\DALDependencyInjection.cs",
+              "RelativeDocumentMoniker": "Smart.DAL\\DALDependencyInjection.cs",
+              "ToolTip": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\Smart.DAL\\DALDependencyInjection.cs",
+              "RelativeToolTip": "Smart.DAL\\DALDependencyInjection.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAgwBcAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T14:11:39.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SettingRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\Smart.DAL\\Repositories\\Implementations\\SettingRepository.cs",
+              "RelativeDocumentMoniker": "Smart.DAL\\Repositories\\Implementations\\SettingRepository.cs",
+              "ToolTip": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\Smart.DAL\\Repositories\\Implementations\\SettingRepository.cs",
+              "RelativeToolTip": "Smart.DAL\\Repositories\\Implementations\\SettingRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T14:11:08.669Z"
             }
           ]
         }

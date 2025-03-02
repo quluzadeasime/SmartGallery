@@ -1,0 +1,16 @@
+C:\Users\Asime\Desktop\SmartGallery\SmartGallery\Smart.Shared\bin\Debug\net8.0\Smart.Shared.deps.json
+C:\Users\Asime\Desktop\SmartGallery\SmartGallery\Smart.Shared\bin\Debug\net8.0\Smart.Shared.dll
+C:\Users\Asime\Desktop\SmartGallery\SmartGallery\Smart.Shared\bin\Debug\net8.0\Smart.Shared.pdb
+C:\Users\Asime\Desktop\SmartGallery\SmartGallery\Smart.Shared\bin\Debug\net8.0\Smart.Core.dll
+C:\Users\Asime\Desktop\SmartGallery\SmartGallery\Smart.Shared\bin\Debug\net8.0\Smart.Core.pdb
+C:\Users\Asime\Desktop\SmartGallery\SmartGallery\Smart.Shared\obj\Debug\net8.0\Smart.Shared.csproj.AssemblyReference.cache
+C:\Users\Asime\Desktop\SmartGallery\SmartGallery\Smart.Shared\obj\Debug\net8.0\Smart.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asime\Desktop\SmartGallery\SmartGallery\Smart.Shared\obj\Debug\net8.0\Smart.Shared.AssemblyInfoInputs.cache
+C:\Users\Asime\Desktop\SmartGallery\SmartGallery\Smart.Shared\obj\Debug\net8.0\Smart.Shared.AssemblyInfo.cs
+C:\Users\Asime\Desktop\SmartGallery\SmartGallery\Smart.Shared\obj\Debug\net8.0\Smart.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Asime\Desktop\SmartGallery\SmartGallery\Smart.Shared\obj\Debug\net8.0\Smart.Shared.sourcelink.json
+C:\Users\Asime\Desktop\SmartGallery\SmartGallery\Smart.Shared\obj\Debug\net8.0\Smart.Sh.6402E21D.Up2Date
+C:\Users\Asime\Desktop\SmartGallery\SmartGallery\Smart.Shared\obj\Debug\net8.0\Smart.Shared.dll
+C:\Users\Asime\Desktop\SmartGallery\SmartGallery\Smart.Shared\obj\Debug\net8.0\refint\Smart.Shared.dll
+C:\Users\Asime\Desktop\SmartGallery\SmartGallery\Smart.Shared\obj\Debug\net8.0\Smart.Shared.pdb
+C:\Users\Asime\Desktop\SmartGallery\SmartGallery\Smart.Shared\obj\Debug\net8.0\ref\Smart.Shared.dll
