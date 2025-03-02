@@ -11,6 +11,6 @@ namespace Smart.DAL.Repositories.Implementations
 {
     public class ColorRepository : Repository<Color>, IColorRepository
     {
-        protected ColorRepository(AppDbContext context) : base(context) { }
+        public ColorRepository(AppDbContext context) : base(context) { }
     }
 }

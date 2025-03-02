@@ -20,10 +20,11 @@ namespace App.DAL.Presistence
 
         public DbSet<Color> Colors { get; set; }
         public DbSet<Brand> Brands { get; set; }
-        public DbSet<Contact> Contacts { get; set; } 
+        public DbSet<Contact> Contacts { get; set; }
         public DbSet<Service> Services { get; set; }
         public DbSet<Setting> Settings { get; set; }
         public DbSet<Product> Products { get; set; }
+        public DbSet<Checkout> Checkouts { get; set; }
         public DbSet<Category> Categories { get; set; }
         public DbSet<ProductColor> ProductColors { get; set; }
         public DbSet<Subscription> Subscriptions { get; set; }

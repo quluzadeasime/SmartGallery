@@ -11,6 +11,6 @@ namespace Smart.DAL.Repositories.Implementations
 {
     public class ProductRepository : Repository<Product>, IProductRepository
     {
-        protected ProductRepository(AppDbContext context) : base(context){ }
+        public ProductRepository(AppDbContext context) : base(context){ }
     }
 }

@@ -7,5 +7,5 @@ using System.Threading.Tasks;
 
 namespace Smart.DAL.Repositories.Interfaces
 {
-    public interface ISpesificationRepository : IRepository<Specification> { }
+    public interface ISpecificationRepository : IRepository<Specification> { }
 }

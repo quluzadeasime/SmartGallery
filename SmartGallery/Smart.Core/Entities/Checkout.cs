@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Smart.Core.Entities.Commons;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Smart.Core.Entities
 {
-    public class Checkout
+    public class Checkout : BaseEntity
     {
         public string City { get; set; }
         public string State { get; set; }

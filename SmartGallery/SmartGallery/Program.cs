@@ -2,23 +2,20 @@ using App.DAL.Presistence;
 using Smart.API;
 using Smart.Business;
 using Smart.DAL;
+using Smart.Shared.Implementations;
+using Smart.Shared.Interfaces;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
 
 // Add services to the container.
-builder.Services
-    .AddDataAccess(builder.Configuration)
-    .AddBusiness();
-builder.Services
-    .AddJwt(builder.Configuration);
-builder.Services
-    .AddSwagger();
-builder.Services
-    .AddControllers();
-builder.Services
-    .AddEndpointsApiExplorer();
+builder.Services.AddHttpContextAccessor();
+builder.Services.AddDataAccess(builder.Configuration)
+                .AddBusiness();
+builder.Services.AddJwt(builder.Configuration);
+builder.Services.AddSwagger();
+builder.Services.AddControllers();
+builder.Services.AddEndpointsApiExplorer();
 
 var app = builder.Build();
 

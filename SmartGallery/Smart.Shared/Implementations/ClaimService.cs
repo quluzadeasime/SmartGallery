@@ -11,24 +11,22 @@ namespace Smart.Shared.Implementations
 {
     public class ClaimService : IClaimService
     {
-        private readonly HttpContextAccessor _httpContextAccessor;
+        private readonly IHttpContextAccessor _httpContextAccessor;
 
-        public ClaimService(HttpContextAccessor httpContextAccessor)
+        public ClaimService(IHttpContextAccessor httpContextAccessor)
         {
             _httpContextAccessor = httpContextAccessor;
+        }
+
+        public string GetClaim(string key)
+        {
+            return _httpContextAccessor.HttpContext?.User?.FindFirst(key)?.Value;
         }
 
         public string GetUserId()
         {
             return GetClaim(ClaimTypes.Name);
         }
-
-        public string GetClaim(string key)
-        {
-            var result = _httpContextAccessor.HttpContext?.User.Claims.FirstOrDefault(c => c.Type == "id")?.Value
-                ?? _httpContextAccessor.HttpContext?.User?.Claims?.FirstOrDefault()?.Value;
-
-            return result;
-        }
     }
+    
 }

@@ -63,23 +63,43 @@ namespace Smart.DAL
 
         private static void AddRepositories(this IServiceCollection services)
         {
-            services.AddScoped<IBrandRepository, BrandRepository>();
+            //Repositories
+            var repositories = new Dictionary<Type, Type> 
+            {
+                {typeof(IBrandRepository),typeof(BrandRepository) },
+                {typeof(ICategoryRepository),typeof(CategoryRepository) },
+                {typeof(IColorRepository),typeof(ColorRepository) },
+                {typeof(IContactRepository),typeof(ContactRepository) },
+                {typeof(ISettingRepository),typeof(SettingRepository) },
+                {typeof(IServiceRepository),typeof(ServiceRepository) },
+                {typeof(ISpecificationRepository),typeof(SpecificationRepository) },
+                {typeof(IProductRepository),typeof(ProductRepository) },
+                {typeof(IProductImageRepository),typeof(ProductImageRepository) },
+                {typeof(IProductColorRepository),typeof(ProductColorRepository) }
+            };
 
-            services.AddScoped<ICategoryRepository, CategoryRepository>();
+            foreach(var (interfaceType, implementationType) in repositories)
+            {
+                services.AddScoped(interfaceType, implementationType);
+            }
 
-            services.AddScoped<IColorRepository, ColorRepository>();
+            //services.AddScoped<IBrandRepository, BrandRepository>();
 
-            services.AddScoped<IContactRepository, ContactRepository>();
+            //services.AddScoped<ICategoryRepository, CategoryRepository>();
 
-            services.AddScoped<ISettingRepository, SettingRepository>();
+            //services.AddScoped<IColorRepository, ColorRepository>();
 
-            services.AddScoped<IServiceRepository, ServiceRepository>();
+            //services.AddScoped<IContactRepository, ContactRepository>();
 
-            services.AddScoped<ISpesificationRepository, SpesificationRepository>();
+            //services.AddScoped<ISettingRepository, SettingRepository>();
 
-            services.AddScoped<IProductRepository, ProductRepository>();
-            services.AddScoped<IProductImageRepository, ProductImageRepository>();
-            services.AddScoped<IProductColorRepository, ProductColorRepository>();
+            //services.AddScoped<IServiceRepository, ServiceRepository>();
+
+            //services.AddScoped<ISpecificationRepository, SpecificationRepository>();
+
+            //services.AddScoped<IProductRepository, ProductRepository>();
+            //services.AddScoped<IProductImageRepository, ProductImageRepository>();
+            //services.AddScoped<IProductColorRepository, ProductColorRepository>();
         }
     }
 }

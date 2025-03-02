@@ -81,9 +81,7 @@ C:\Users\Asime\Desktop\SmartGallery\SmartGallery\SmartGallery\bin\Debug\net8.0\M
 C:\Users\Asime\Desktop\SmartGallery\SmartGallery\SmartGallery\bin\Debug\net8.0\Mono.TextTemplating.dll
 C:\Users\Asime\Desktop\SmartGallery\SmartGallery\SmartGallery\bin\Debug\net8.0\MySql.Data.dll
 C:\Users\Asime\Desktop\SmartGallery\SmartGallery\SmartGallery\bin\Debug\net8.0\MySql.EntityFrameworkCore.dll
-C:\Users\Asime\Desktop\SmartGallery\SmartGallery\SmartGallery\bin\Debug\net8.0\MySqlConnector.dll
 C:\Users\Asime\Desktop\SmartGallery\SmartGallery\SmartGallery\bin\Debug\net8.0\Newtonsoft.Json.dll
-C:\Users\Asime\Desktop\SmartGallery\SmartGallery\SmartGallery\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
 C:\Users\Asime\Desktop\SmartGallery\SmartGallery\SmartGallery\bin\Debug\net8.0\RestSharp.dll
 C:\Users\Asime\Desktop\SmartGallery\SmartGallery\SmartGallery\bin\Debug\net8.0\Renci.SshNet.dll
 C:\Users\Asime\Desktop\SmartGallery\SmartGallery\SmartGallery\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll

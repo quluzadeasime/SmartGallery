@@ -16,7 +16,7 @@ namespace Smart.DAL.Repositories.Implementations
         protected readonly AppDbContext Context;
         protected readonly DbSet<TEntity> DbSet;
         private bool _disposed = false;
-        protected Repository(AppDbContext context)
+        public Repository(AppDbContext context)
         {
             Context = context;
             DbSet = context.Set<TEntity>();

@@ -11,6 +11,6 @@ namespace Smart.DAL.Repositories.Implementations
 {
     public class ContactRepository : Repository<Contact>, IContactRepository
     {
-        protected ContactRepository(AppDbContext context) : base(context) { }
+        public ContactRepository(AppDbContext context) : base(context) { }
     }
 }

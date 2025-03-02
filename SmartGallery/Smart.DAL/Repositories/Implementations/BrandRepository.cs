@@ -11,6 +11,6 @@ namespace Smart.DAL.Repositories.Implementations
 {
     public class BrandRepository : Repository<Brand>, IBrandRepository
     {
-        protected BrandRepository(AppDbContext context) : base(context) { }
+        public BrandRepository(AppDbContext context) : base(context) { }
     }
 }

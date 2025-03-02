@@ -11,6 +11,6 @@ namespace Smart.DAL.Repositories.Implementations
 {
     public class SettingRepository : Repository<Setting>, ISettingRepository
     {
-        protected SettingRepository(AppDbContext context) : base(context) { }
+        public SettingRepository(AppDbContext context) : base(context) { }
     }
 }

@@ -9,8 +9,8 @@ using System.Threading.Tasks;
 
 namespace Smart.DAL.Repositories.Implementations
 {
-    public class SpesificationRepository : Repository<Specification>, ISpesificationRepository
+    public class SpecificationRepository : Repository<Specification>, ISpecificationRepository
     {
-        protected SpesificationRepository(AppDbContext context) : base(context) { }
+        public SpecificationRepository(AppDbContext context) : base(context) { }
     }
 }

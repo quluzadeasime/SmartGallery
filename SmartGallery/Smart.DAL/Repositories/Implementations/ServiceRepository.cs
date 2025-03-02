@@ -11,6 +11,6 @@ namespace Smart.DAL.Repositories.Implementations
 {
     public class ServiceRepository : Repository<Service>, IServiceRepository
     {
-        protected ServiceRepository(AppDbContext context) : base(context) { }
+        public ServiceRepository(AppDbContext context) : base(context) { }
     }
 }
