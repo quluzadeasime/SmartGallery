@@ -28,14 +28,14 @@ namespace Smart.DAL.Presistence
 
             if (adminExists == null)
             {
-                var userAdmin = new User { UserName = "admin", Email = "admin@admin.com", EmailConfirmed = true };
+                var userAdmin = new User { FirstName = "Admin", LastName = "Adminov", UserName = "admin", Email = "admin@admin.com", EmailConfirmed = true };
                 await userManager.CreateAsync(userAdmin, "!Admin123.?Back3ndFr0nt3nd@");
                 await userManager.AddToRoleAsync(userAdmin, EUserRole.Admin.ToString());
             }
 
             if (modExists == null)
             {
-                var userMod = new User { UserName = "moderator", Email = "mod@mod.com", EmailConfirmed = true };
+                var userMod = new User { FirstName = "Moderator", LastName = "Moderatov", UserName = "moderator", Email = "mod@mod.com", EmailConfirmed = true };
                 await userManager.CreateAsync(userMod, "!Mod123.?Back3ndFr0nt3nd@");
                 await userManager.AddToRoleAsync(userMod, EUserRole.Moderator.ToString());
             }
