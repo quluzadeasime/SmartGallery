@@ -27,4 +27,9 @@
 	  <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="6.6.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="MappingProfiles\Commons\" />
+    <Folder Include="Services\ExternalServices\" />
+  </ItemGroup>
+
 </Project>

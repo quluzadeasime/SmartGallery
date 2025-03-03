@@ -2,6 +2,8 @@
 using Microsoft.AspNetCore.Mvc.ApplicationModels;
 using Microsoft.Extensions.DependencyInjection;
 using Smart.Business.Helpers;
+using Smart.Business.Services.InternalServices.Abstractions;
+using Smart.Business.Services.InternalServices.Interfaces;
 using Smart.Shared.Implementations;
 using Smart.Shared.Interfaces;
 using System;
@@ -28,6 +30,7 @@ namespace Smart.Business
         private static void AddServices(this IServiceCollection services)
         {
             services.AddScoped<IClaimService, ClaimService>();
+            services.AddScoped<ICategoryService, CategoryService>();
 
             // Services adding here!!!
         }
