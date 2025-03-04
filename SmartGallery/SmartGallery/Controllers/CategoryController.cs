@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Smart.API.Controllers.Commons;
 using Smart.Business.DTOs.CategoryDTOs;
@@ -15,7 +15,6 @@ namespace Smart.API.Controllers
         {
             _categoryService = categoryService;
         }
-
 
         [HttpGet]
         public async Task<IActionResult> GetAllAsync()
@@ -60,6 +59,5 @@ namespace Smart.API.Controllers
             return validation.IsValid ? Ok(await _categoryService.DeleteAsync(dto))
                 : BadRequest(validation.Errors.Select(x => x.ErrorMessage).ToList());
         }
-
     }
 }

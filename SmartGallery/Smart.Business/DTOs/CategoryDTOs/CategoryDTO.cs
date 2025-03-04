@@ -9,6 +9,6 @@ namespace Smart.Business.DTOs.CategoryDTOs
 {
     public class CategoryDTO : BaseEntityDTO
     {
-        public string Name{ get; set; }
+        public string Name { get; set; }
     }
 }

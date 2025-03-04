@@ -28,7 +28,7 @@ namespace Smart.API.Middlewares
         {
 
             var code = StatusCodes.Status500InternalServerError;
-            var errors = new List<string> { ex.Message };
+            var exMessage = ex.Message;
 
             switch (ex)
             {
@@ -37,7 +37,15 @@ namespace Smart.API.Middlewares
                     break;
             }
 
-            var result = JsonConvert.SerializeObject(new { errors });
+            var errorResponse = new
+            {
+                status = code,
+                message = exMessage,
+                inner = ex.InnerException?.Message,
+                inner2 = ex.InnerException?.InnerException?.Message,
+            };
+
+            var result = JsonConvert.SerializeObject(errorResponse);
 
             context.Response.ContentType = "application/json";
             context.Response.StatusCode = code;

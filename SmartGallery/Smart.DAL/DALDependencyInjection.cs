@@ -82,24 +82,6 @@ namespace Smart.DAL
             {
                 services.AddScoped(interfaceType, implementationType);
             }
-
-            //services.AddScoped<IBrandRepository, BrandRepository>();
-
-            //services.AddScoped<ICategoryRepository, CategoryRepository>();
-
-            //services.AddScoped<IColorRepository, ColorRepository>();
-
-            //services.AddScoped<IContactRepository, ContactRepository>();
-
-            //services.AddScoped<ISettingRepository, SettingRepository>();
-
-            //services.AddScoped<IServiceRepository, ServiceRepository>();
-
-            //services.AddScoped<ISpecificationRepository, SpecificationRepository>();
-
-            //services.AddScoped<IProductRepository, ProductRepository>();
-            //services.AddScoped<IProductImageRepository, ProductImageRepository>();
-            //services.AddScoped<IProductColorRepository, ProductColorRepository>();
         }
     }
 }

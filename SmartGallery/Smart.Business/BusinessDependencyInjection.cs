@@ -31,6 +31,9 @@ namespace Smart.Business
         {
             services.AddScoped<IClaimService, ClaimService>();
             services.AddScoped<ICategoryService, CategoryService>();
+            services.AddScoped<IBrandService, BrandService>();
+            services.AddScoped<IColorService, ColorService>();
+            services.AddScoped<IServiceService, ServiceService>();
 
             // Services adding here!!!
         }

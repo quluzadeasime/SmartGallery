@@ -7,5 +7,5 @@ using System.Threading.Tasks;
 
 namespace Smart.Business.DTOs.CategoryDTOs
 {
-    public class GetByIdCategoryDTO :BaseEntityDTO { }
+    public class GetByIdCategoryDTO : BaseEntityDTO { }
 }
