@@ -30,10 +30,13 @@ namespace Smart.Business
         private static void AddServices(this IServiceCollection services)
         {
             services.AddScoped<IClaimService, ClaimService>();
-            services.AddScoped<ICategoryService, CategoryService>();
             services.AddScoped<IBrandService, BrandService>();
             services.AddScoped<IColorService, ColorService>();
             services.AddScoped<IServiceService, ServiceService>();
+            services.AddScoped<IProductService, ProductService>();
+            services.AddScoped<ISettingService, SettingService>();
+            services.AddScoped<ICategoryService, CategoryService>();
+            services.AddScoped<ISpecificationService, SpecificationService>();
 
             // Services adding here!!!
         }

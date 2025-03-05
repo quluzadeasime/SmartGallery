@@ -15,7 +15,7 @@ namespace Smart.Core.Entities
         public string LogoUrl { get; set; }
         public string Instagram { get; set; }
         public string Facebook { get; set; }
-        public ICollection<WorkHours> WorkHours { get; set; }
+        public string WorkHours { get; set; }
 
         // Base Fields
         public string CreatedBy { get; set; }
