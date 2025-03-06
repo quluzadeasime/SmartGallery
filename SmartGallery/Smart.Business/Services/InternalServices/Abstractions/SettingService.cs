@@ -1,5 +1,11 @@
-﻿using Smart.Business.DTOs.SettingDTOs;
+﻿using AutoMapper;
+using Microsoft.EntityFrameworkCore.Query.Internal;
+using MySqlX.XDevAPI.Common;
+using Smart.Business.DTOs.SettingDTOs;
 using Smart.Business.Services.InternalServices.Interfaces;
+using Smart.Core.Entities;
+using Smart.DAL.Repositories.Implementations;
+using Smart.DAL.Repositories.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,29 +16,101 @@ namespace Smart.Business.Services.InternalServices.Abstractions
 {
     public class SettingService : ISettingService
     {
-        public Task<SettingDTO> CreateAsync(CreateSettingDTO dto)
+        private readonly ISettingRepository _settingRepository;
+        private readonly IMapper _mapper;
+
+        public SettingService(ISettingRepository settingRepository, IMapper mapper = null)
         {
-            throw new NotImplementedException();
+            _settingRepository = settingRepository;
+            _mapper = mapper;
         }
 
-        public Task<SettingDTO> DeleteAsync(DeleteSettingDTO dto)
+        public async Task<SettingDTO> CreateAsync(CreateSettingDTO dto)
         {
-            throw new NotImplementedException();
+            var result = await _settingRepository.AddAsync(_mapper.Map<Setting>(dto));
+
+            return new SettingDTO
+            {
+                Id = result.Id,
+                Instagram = result.Instagram,
+                Facebook = result.Facebook,
+                Address = result.Address,
+                Phone = result.Phone,
+                WorkHours = result.WorkHours,
+                Email = result.Email,
+                LogoUrl = result.LogoUrl
+            };
         }
 
-        public Task<IEnumerable<SettingDTO>> GetAllAsync()
+        public async Task<SettingDTO> DeleteAsync(DeleteSettingDTO dto)
         {
-            throw new NotImplementedException();
+            var result = await _settingRepository.DeleteAsync(
+               await _settingRepository.GetByIdAsync(x => x.Id == dto.Id));
+
+            return new SettingDTO
+            {
+                Id = result.Id,
+                Instagram = result.Instagram,
+                Facebook = result.Facebook,
+                Address = result.Address,
+                Phone = result.Phone,
+                WorkHours = result.WorkHours,
+                Email = result.Email,
+                LogoUrl = result.LogoUrl
+            };
         }
 
-        public Task<SettingDTO> GetByIdAsync(GetByIdSettingDTO dto)
+        public async Task<IEnumerable<SettingDTO>> GetAllAsync()
         {
-            throw new NotImplementedException();
+            var query = await _settingRepository.GetAllAsync(x => !x.IsDeleted);
+
+            return query.Select(x => new SettingDTO
+            {
+                Id = x.Id,
+                Instagram = x.Instagram,
+                Facebook = x.Facebook,
+                Address = x.Address,
+                Phone = x.Phone,
+                WorkHours = x.WorkHours,
+                Email = x.Email,
+                LogoUrl = x.LogoUrl
+            });
         }
 
-        public Task<SettingDTO> UpdateAsync(UpdateSettingDTO dto)
+        public async Task<SettingDTO> GetByIdAsync(GetByIdSettingDTO dto)
         {
-            throw new NotImplementedException();
+            var entity = await _settingRepository.GetByIdAsync(x => x.Id == dto.Id);
+
+            return new SettingDTO
+            {
+                Id = entity.Id,
+                Instagram = entity.Instagram,
+                Facebook = entity.Facebook,
+                Address = entity.Address,
+                Phone = entity.Phone,
+                WorkHours = entity.WorkHours,
+                Email = entity.Email,
+                LogoUrl = entity.LogoUrl
+            };
+        }
+
+        public async Task<SettingDTO> UpdateAsync(UpdateSettingDTO dto)
+        {
+            var oldEntity = await _settingRepository.GetByIdAsync(x => x.Id == dto.Id);
+            var entity = await _settingRepository.UpdateAsync(
+                _mapper.Map(dto, oldEntity));
+
+            return new SettingDTO
+            {
+                Id = entity.Id,
+                Instagram = entity.Instagram,
+                Facebook = entity.Facebook,
+                Address = entity.Address,
+                Phone = entity.Phone,
+                WorkHours = entity.WorkHours,
+                Email = entity.Email,
+                LogoUrl = entity.LogoUrl
+            };
         }
     }
 }

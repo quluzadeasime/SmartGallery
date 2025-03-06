@@ -18,7 +18,7 @@ namespace Smart.Business.MappingProfiles
             CreateMap<CreateSettingDTO, Setting>().ReverseMap();
 
             //Update section
-            CreateMap<CreateSettingDTO, Setting>().ReverseMap();
+            CreateMap<UpdateSettingDTO, Setting>().ReverseMap();
         }
     }
 }

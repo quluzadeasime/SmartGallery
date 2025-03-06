@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Http;
 using Smart.Business.Services.ExternalServices.Interfaces;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -15,15 +16,33 @@ namespace Smart.Business.Services.ExternalServices.Abstractions
     {
         private readonly IWebHostEnvironment _environment;
         private readonly Cloudinary _cloudinary;
+
         public FileManagerService(IWebHostEnvironment environment, Cloudinary cloudinary = null)
         {
             _environment = environment;
             _cloudinary = cloudinary;
         }
 
-        public bool BeAValidPdf(IFormFile file)
+
+        public static bool BeAValidImage(IFormFile file)
         {
-            return file != null && file.ContentType.Equals("application/pdf") && 1024 * 1024 * 5 >= file.Length;
+            if (file == null) return false;
+
+            var validImageExtensions = new[] { ".jpg", ".jpeg", ".png", ".gif" };
+            var fileExtension = Path.GetExtension(file.FileName)?.ToLower();
+
+            return validImageExtensions.Contains(fileExtension);
+        }
+
+        public static bool IsValidImageUrl(string url)
+        {
+            if (string.IsNullOrWhiteSpace(url))
+                return false;
+
+            var validImageExtensions = new[] { ".jpg", ".jpeg", ".png", ".gif" };
+            var extension = Path.GetExtension(new Uri(url).AbsolutePath)?.ToLower();
+
+            return validImageExtensions.Contains(extension);
         }
 
         public async Task<string> UploadFileAsync(IFormFile file)
@@ -35,7 +54,7 @@ namespace Smart.Business.Services.ExternalServices.Abstractions
 
         public async Task<string> UploadToCloudAsync(IFormFile file)
         {
-            using(var stream = file.OpenReadStream())
+            using (var stream = file.OpenReadStream())
             {
                 var uploadParams = new RawUploadParams
                 {
@@ -48,33 +67,49 @@ namespace Smart.Business.Services.ExternalServices.Abstractions
                 return uploadResult?.SecureUrl?.ToString();
             }
         }
-        public async Task<string> UploadLocalAsync(IFormFile file)
+
+        public async Task<List<string>> UploadMultipleAsync(List<IFormFile> files)
         {
-            if (file == null || file.Length == 0)
-                throw new ArgumentException("Fayl daxil etməyiniz mütləqdir!");
+            if (files == null || !files.Any())
+                throw new ArgumentException("Ən azı bir fayl daxil etməyiniz mütləqdir!");
 
-            if (!BeAValidPdf(file))
-                throw new Exception("Fayl formatı düzgün qeyd olunmayıb. Daxil olunan fayl pdf formatında və ən çox 1 MB olmalıdır!");
+            var fileNames = new List<string>();
 
-            var fileName = Guid.NewGuid().ToString() + "_" +
-                Path.GetFileNameWithoutExtension(file.FileName) +
-                Path.GetExtension(file.FileName);
-
-            var uploadsPath = Path.Combine(_environment.WebRootPath, "uploads");
-
-            if (!Directory.Exists(uploadsPath))
+            foreach (var file in files)
             {
-                Directory.CreateDirectory(uploadsPath);
+                if (file.Length == 0)
+                    throw new ArgumentException("Faylın uzunluğu sıfırdır.");
+
+                if (!BeAValidImage(file))
+                    throw new Exception("Yalnız şəkil faylları (jpeg, png, gif) qəbul edilir!");
+
+                var fileName = Guid.NewGuid().ToString() + "_" +
+                               Path.GetFileNameWithoutExtension(file.FileName) +
+                               Path.GetExtension(file.FileName);
+
+                var uploadsPath = Path.Combine(_environment.WebRootPath, "uploads");
+
+                if (!Directory.Exists(uploadsPath))
+                {
+                    Directory.CreateDirectory(uploadsPath);
+                }
+
+                var filePath = Path.Combine(uploadsPath, fileName);
+
+                using (var stream = new FileStream(filePath, FileMode.Create))
+                {
+                    await file.CopyToAsync(stream);
+                }
+
+                fileNames.Add(fileName);
             }
 
-            var filePath = Path.Combine(uploadsPath, fileName);
+            return fileNames;
+        }
 
-            using (var stream = new FileStream(filePath, FileMode.Create))
-            {
-                await file.CopyToAsync(stream);
-            }
-
-            return fileName;
+        public static bool IsFromCloudService(string url, string cloudBaseUrl = "https://yourcloudservice.com/")
+        {
+            return url.StartsWith(cloudBaseUrl);
         }
     }
 }

@@ -1,5 +1,4 @@
 ﻿using Smart.Business.DTOs.Commons;
-using Smart.Business.DTOs.WorkHourDTO;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,6 +15,6 @@ namespace Smart.Business.DTOs.SettingDTOs
         public string LogoUrl { get; set; }
         public string Instagram { get; set; }
         public string Facebook { get; set; }
-        public ICollection<CreateWorkHourDTO> WorkHours { get; set; }
+        public string WorkHours { get; set; }
     }
 }

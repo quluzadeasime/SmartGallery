@@ -658,6 +658,10 @@ namespace Smart.DAL.Migrations
                     b.Property<DateTime>("UpdatedOn")
                         .HasColumnType("datetime2");
 
+                    b.Property<string>("WorkHours")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.HasKey("Id");
 
                     b.ToTable("Settings");
@@ -721,50 +725,6 @@ namespace Smart.DAL.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Subscriptions");
-                });
-
-            modelBuilder.Entity("Smart.Core.Entities.WorkHours", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("CreatedBy")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<DateTime>("CreatedOn")
-                        .HasColumnType("datetime2");
-
-                    b.Property<DateTime>("EndHour")
-                        .HasColumnType("datetime2");
-
-                    b.Property<bool>("IsDeleted")
-                        .HasColumnType("bit");
-
-                    b.Property<int>("SettingId")
-                        .HasColumnType("int");
-
-                    b.Property<DateTime>("StartHour")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("UpdatedBy")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<DateTime>("UpdatedOn")
-                        .HasColumnType("datetime2");
-
-                    b.Property<short>("WeekDay")
-                        .HasColumnType("smallint");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("SettingId");
-
-                    b.ToTable("WorkHours");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -878,17 +838,6 @@ namespace Smart.DAL.Migrations
                     b.Navigation("Product");
                 });
 
-            modelBuilder.Entity("Smart.Core.Entities.WorkHours", b =>
-                {
-                    b.HasOne("Smart.Core.Entities.Setting", "Setting")
-                        .WithMany("WorkHours")
-                        .HasForeignKey("SettingId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Setting");
-                });
-
             modelBuilder.Entity("Smart.Core.Entities.Brand", b =>
                 {
                     b.Navigation("Products");
@@ -911,11 +860,6 @@ namespace Smart.DAL.Migrations
                     b.Navigation("ProductImages");
 
                     b.Navigation("Specifications");
-                });
-
-            modelBuilder.Entity("Smart.Core.Entities.Setting", b =>
-                {
-                    b.Navigation("WorkHours");
                 });
 #pragma warning restore 612, 618
         }

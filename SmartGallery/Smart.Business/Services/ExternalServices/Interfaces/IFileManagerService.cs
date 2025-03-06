@@ -9,7 +9,6 @@ namespace Smart.Business.Services.ExternalServices.Interfaces
 {
     public interface IFileManagerService
     {
-        bool BeAValidPdf(IFormFile file);
         Task<string> UploadFileAsync(IFormFile file);
     }
 }

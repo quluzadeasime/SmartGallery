@@ -43,8 +43,10 @@ namespace Smart.Business.Validators.SettingValidators
                 .WithMessage("Facebook link is required.");
 
             RuleFor(x => x.WorkHours)
-                 .NotEmpty()
-                .WithMessage("Work hours  is required.");
+             .NotEmpty()
+             .WithMessage("Work hours is required.")
+             .Length(5, 200)
+             .WithMessage("Work hours must be between 5 and 200 characters.");
         }
     }
 }

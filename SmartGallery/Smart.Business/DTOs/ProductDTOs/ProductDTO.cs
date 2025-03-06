@@ -1,4 +1,6 @@
-﻿using Smart.Core.Entities;
+﻿using Smart.Business.DTOs.Commons;
+using Smart.Business.DTOs.SpecificationDTOs;
+using Smart.Core.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Smart.Business.DTOs.ProductDTOs
 {
-    public class ProductDTO
+    public class ProductDTO : BaseEntityDTO
     {
         public string Name { get; set; }
         public int BrandId { get; set; }
@@ -21,7 +23,7 @@ namespace Smart.Business.DTOs.ProductDTOs
         public string Description { get; set; }
         public ICollection<ProductColor> Colors { get; set; }
         public ICollection<ProductImage> ProductImages { get; set; }
-        public ICollection<Specification> Specifications { get; set; }
+        public ICollection<SpecificationDTO> Specifications { get; set; }
 
     }
 }

@@ -4,6 +4,8 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Smart.Core.Entities.Identity;
+using Smart.DAL.Handlers.Implementations;
+using Smart.DAL.Handlers.Interfaces;
 using Smart.DAL.Repositories.Implementations;
 using Smart.DAL.Repositories.Interfaces;
 using System;
@@ -20,6 +22,7 @@ namespace Smart.DAL
         {
             services.AddDatabase(configuration);
             services.AddIdentity();
+            services.AddHandlers();
             services.AddRepositories();
             services.AddHttpContextAccessor();
 
@@ -67,21 +70,38 @@ namespace Smart.DAL
             var repositories = new Dictionary<Type, Type> 
             {
                 {typeof(IBrandRepository),typeof(BrandRepository) },
-                {typeof(ICategoryRepository),typeof(CategoryRepository) },
                 {typeof(IColorRepository),typeof(ColorRepository) },
                 {typeof(IContactRepository),typeof(ContactRepository) },
                 {typeof(ISettingRepository),typeof(SettingRepository) },
                 {typeof(IServiceRepository),typeof(ServiceRepository) },
-                {typeof(ISpecificationRepository),typeof(SpecificationRepository) },
                 {typeof(IProductRepository),typeof(ProductRepository) },
+                {typeof(ICategoryRepository),typeof(CategoryRepository) },
                 {typeof(IProductImageRepository),typeof(ProductImageRepository) },
-                {typeof(IProductColorRepository),typeof(ProductColorRepository) }
+                {typeof(IProductColorRepository),typeof(ProductColorRepository) },
+                {typeof(ISpecificationRepository),typeof(SpecificationRepository) },
             };
 
             foreach(var (interfaceType, implementationType) in repositories)
             {
                 services.AddScoped(interfaceType, implementationType);
             }
+        }
+
+        private static void AddHandlers(this IServiceCollection services)
+        {
+            var handlers = new Dictionary<Type, Type>
+            {
+                {typeof(IColorHandler),typeof(ColorHandler) },
+                {typeof(IBrandHandler),typeof(BrandHandler) },
+                {typeof(IContactHandler),typeof(ContactHandler) },
+                {typeof(ISettingHandler),typeof(SettingHandler) },
+                {typeof(IServiceHandler),typeof(ServiceHandler) },
+                {typeof(IProductHandler),typeof(ProductHandler) },
+                {typeof(ICategoryHandler),typeof(CategoryHandler) },
+                {typeof(IProductImageHandler),typeof(ProductImageHandler) },
+                {typeof(IProductColorHandler),typeof(ProductColorHandler) },
+                {typeof(ISpecificationHandler),typeof(SpecificationHandler) }
+            };
         }
     }
 }

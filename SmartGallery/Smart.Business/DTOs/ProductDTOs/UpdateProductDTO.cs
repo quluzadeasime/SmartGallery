@@ -1,4 +1,5 @@
-﻿using Smart.Business.DTOs.Commons;
+﻿using Microsoft.AspNetCore.Http;
+using Smart.Business.DTOs.Commons;
 using Smart.Business.DTOs.SpecificationDTOs;
 using System;
 using System.Collections.Generic;
@@ -16,8 +17,8 @@ namespace Smart.Business.DTOs.ProductDTOs
         public int? Discount { get; set; }
         public int CategoryId { get; set; }
         public string Description { get; set; }
-        public List<int> ColorIds { get; set; }
-        public List<string> ImageUrls { get; set; }
-        public List<UpdateSpecificationDTO> Specifications { get; set; }
+        public ICollection<int> ColorIds { get; set; }
+        public ICollection<IFormFile> ImageUrls { get; set; }
+        public ICollection<UpdateSpecificationDTO> Specifications { get; set; }
     }
 }

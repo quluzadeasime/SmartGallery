@@ -30,7 +30,6 @@
 
   <ItemGroup>
     <Folder Include="MappingProfiles\Commons\" />
-    <Folder Include="Validators\ProductValidators\" />
   </ItemGroup>
 
 </Project>
