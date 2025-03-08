@@ -15,9 +15,6 @@ namespace Smart.Business.MappingProfiles
         {
             //Create section
             CreateMap<CreateContactDTO, Contact>().ReverseMap();
-
-            //Update section
-            CreateMap<UpdateContactDTO, Contact>().ReverseMap();
         }
     }
 }

@@ -1,5 +1,6 @@
 ﻿using FluentValidation;
 using Smart.Business.DTOs.ColorDTOs;
+using Smart.Business.Validators.Commons;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Smart.Business.Validators.ColorValidators
 {
-    public class UpdateColorDTOValidator : AbstractValidator<UpdateColorDTO>
+    public class UpdateColorDTOValidator : BaseEntityValidator<UpdateColorDTO>
     {
         public UpdateColorDTOValidator()
         {

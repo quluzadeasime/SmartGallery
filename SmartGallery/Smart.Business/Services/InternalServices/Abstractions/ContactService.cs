@@ -32,6 +32,7 @@ namespace Smart.Business.Services.InternalServices.Abstractions
 
             return new ContactDTO
             {
+                Id = result.Id,
                 Email = result.Email,
                 Name = result.Name,
                 Phone = result.Phone,
@@ -46,6 +47,7 @@ namespace Smart.Business.Services.InternalServices.Abstractions
 
             return new ContactDTO
             {
+                Id = entity.Id,
                 Name = entity.Name,
                 Email = entity.Email,
                 Phone = entity.Phone,
@@ -59,6 +61,7 @@ namespace Smart.Business.Services.InternalServices.Abstractions
 
             return query.Select(x => new ContactDTO
             {
+                Id = x.Id,
                 Name = x.Name,
                 Email = x.Email,
                 Phone = x.Phone,
@@ -73,6 +76,7 @@ namespace Smart.Business.Services.InternalServices.Abstractions
 
             return new ContactDTO
             {
+                Id = entity.Id,
                 Name = entity.Name,
                 Email = entity.Email,
                 Phone = entity.Phone,

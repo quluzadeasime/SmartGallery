@@ -14,6 +14,7 @@ namespace Smart.Business.Validators.SettingValidators
         {
             RuleFor(x => x.Email)
                 .NotEmpty()
+                .EmailAddress()
                 .WithMessage("Email is required.")
                 .Length(7, 75)
                 .WithMessage("Email must be between 7 and 75 characters.");

@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Identity;
 using Smart.Business.DTOs.ProductDTOs;
 using Smart.Business.Services.ExternalServices.Abstractions;
+using Smart.Business.Validators.Commons;
 using Smart.Business.Validators.SpecificationValidators;
 using System;
 using System.Collections.Generic;
@@ -11,7 +12,7 @@ using System.Threading.Tasks;
 
 namespace Smart.Business.Validators.ProductValidators
 {
-    public class UpdateProductDTOValidator : AbstractValidator<UpdateProductDTO>
+    public class UpdateProductDTOValidator : BaseEntityValidator<UpdateProductDTO>
     {
         public UpdateProductDTOValidator()
         {

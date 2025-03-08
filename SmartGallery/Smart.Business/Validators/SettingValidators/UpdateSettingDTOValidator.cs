@@ -1,5 +1,6 @@
 ﻿using FluentValidation;
 using Smart.Business.DTOs.SettingDTOs;
+using Smart.Business.Validators.Commons;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Smart.Business.Validators.SettingValidators
 {
-    public class UpdateSettingDTOValidator : AbstractValidator<UpdateSettingDTO>
+    public class UpdateSettingDTOValidator : BaseEntityValidator<UpdateSettingDTO>
     {
         public UpdateSettingDTOValidator()
         {

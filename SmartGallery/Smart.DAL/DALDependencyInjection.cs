@@ -76,6 +76,7 @@ namespace Smart.DAL
                 {typeof(IServiceRepository),typeof(ServiceRepository) },
                 {typeof(IProductRepository),typeof(ProductRepository) },
                 {typeof(ICategoryRepository),typeof(CategoryRepository) },
+                {typeof(ISubscriptionRepository),typeof(SubscriptionRepository) },
                 {typeof(IProductImageRepository),typeof(ProductImageRepository) },
                 {typeof(IProductColorRepository),typeof(ProductColorRepository) },
                 {typeof(ISpecificationRepository),typeof(SpecificationRepository) },
@@ -100,6 +101,7 @@ namespace Smart.DAL
                   {typeof(ICategoryHandler),typeof(CategoryHandler) },
                   {typeof(IProductImageHandler),typeof(ProductImageHandler) },
                   {typeof(IProductColorHandler),typeof(ProductColorHandler) },
+                  {typeof(ISubscriptionHandler),typeof(SubscriptionHandler) },
                   {typeof(ISpecificationHandler),typeof(SpecificationHandler) } 
 
             };

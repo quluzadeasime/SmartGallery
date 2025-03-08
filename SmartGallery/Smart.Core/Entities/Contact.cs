@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Smart.Core.Entities
 {
-    public class Contact : BaseEntity,IAuditedEntity
+    public class Contact : BaseEntity, IAuditedEntity
     {
         public string Name { get; set; }
         public string Email { get; set; }

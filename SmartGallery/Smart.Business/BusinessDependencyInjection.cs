@@ -37,6 +37,7 @@ namespace Smart.Business
             services.AddScoped<IProductService, ProductService>();
             services.AddScoped<ISettingService, SettingService>();
             services.AddScoped<ICategoryService, CategoryService>();
+            services.AddScoped<ISubscriptionService, SubscriptionService>();
             services.AddScoped<ISpecificationService, SpecificationService>();
 
             // Services adding here!!!
