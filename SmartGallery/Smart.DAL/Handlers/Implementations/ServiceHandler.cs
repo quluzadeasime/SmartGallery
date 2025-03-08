@@ -1,4 +1,5 @@
 ﻿using Smart.Core.Entities;
+using Smart.DAL.Handlers.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,5 +8,5 @@ using System.Threading.Tasks;
 
 namespace Smart.DAL.Handlers.Implementations
 {
-    public class ServiceHandler : Handler<Service> { }
+    public class ServiceHandler : Handler<Service>, IServiceHandler { }
 }

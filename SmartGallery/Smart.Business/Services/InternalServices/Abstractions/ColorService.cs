@@ -4,6 +4,7 @@ using Smart.Business.DTOs.CategoryDTOs;
 using Smart.Business.DTOs.ColorDTOs;
 using Smart.Business.Services.InternalServices.Interfaces;
 using Smart.Core.Entities;
+using Smart.DAL.Handlers.Interfaces;
 using Smart.DAL.Repositories.Interfaces;
 using System;
 using System.Collections.Generic;
@@ -16,11 +17,13 @@ namespace Smart.Business.Services.InternalServices.Abstractions
     public class ColorService : IColorService
     {
         private readonly IColorRepository _colorRepository;
+        private readonly IColorHandler _colorHandler;
         private readonly IMapper _mapper;
-        public ColorService(IColorRepository colorRepository, IMapper mapper = null)
+        public ColorService(IColorRepository colorRepository, IMapper mapper = null, IColorHandler colorHandler = null)
         {
             _colorRepository = colorRepository;
             _mapper = mapper;
+            _colorHandler = colorHandler;
         }
 
         public async Task<ColorDTO> CreateAsync(CreateColorDTO dto)
@@ -37,7 +40,7 @@ namespace Smart.Business.Services.InternalServices.Abstractions
         public async Task<ColorDTO> DeleteAsync(DeleteColorDTO dto)
         {
             var result = await _colorRepository.DeleteAsync(
-                await _colorRepository.GetByIdAsync(x => x.Id == dto.Id));
+                _colorHandler.HandleEntityAsync(await _colorRepository.GetByIdAsync(x => x.Id == dto.Id)));
 
             return new ColorDTO
             {
@@ -59,7 +62,8 @@ namespace Smart.Business.Services.InternalServices.Abstractions
 
         public async Task<ColorDTO> GetByIdAsync(GetByIdColorDTO dto)
         {
-            var entity = await _colorRepository.GetByIdAsync(x => x.Id == dto.Id);
+            var entity = _colorHandler.HandleEntityAsync(
+                await _colorRepository.GetByIdAsync(x => x.Id == dto.Id));
 
             return new ColorDTO
             {
@@ -70,7 +74,9 @@ namespace Smart.Business.Services.InternalServices.Abstractions
 
         public async Task<ColorDTO> UpdateAsync(UpdateColorDTO dto)
         {
-            var oldEntity = await _colorRepository.GetByIdAsync(x => x.Id == dto.Id);
+            var oldEntity = _colorHandler.HandleEntityAsync(
+                await _colorRepository.GetByIdAsync(x => x.Id == dto.Id));
+
             var entity = await _colorRepository.UpdateAsync(
                 _mapper.Map(dto, oldEntity));
 

@@ -4,6 +4,7 @@ using Smart.Business.DTOs.SpecificationDTOs;
 using Smart.Business.Services.ExternalServices.Interfaces;
 using Smart.Business.Services.InternalServices.Interfaces;
 using Smart.Core.Entities;
+using Smart.DAL.Handlers.Interfaces;
 using Smart.DAL.Repositories.Interfaces;
 using System;
 using System.Collections.Generic;
@@ -17,13 +18,15 @@ namespace Smart.Business.Services.InternalServices.Abstractions
     {
         private readonly IProductRepository _productRepository;
         private readonly IMapper _mapper;
+        private readonly IProductHandler _productHandler;
         private readonly IFileManagerService _fileManagerService;
 
-        public ProductService(IProductRepository productRepository, IMapper mapper = null, IFileManagerService fileManagerService = null)
+        public ProductService(IProductRepository productRepository, IMapper mapper = null, IFileManagerService fileManagerService = null, IProductHandler productHandler = null)
         {
             _productRepository = productRepository;
             _mapper = mapper;
             _fileManagerService = fileManagerService;
+            _productHandler = productHandler;
         }
 
         public async Task<ProductDTO> CreateAsync(CreateProductDTO dto)
@@ -75,7 +78,7 @@ namespace Smart.Business.Services.InternalServices.Abstractions
             if (product == null)
                 throw new Exception("Product not found.");
 
-            var result = await _productRepository.DeleteAsync(product);
+            var result = _productHandler.HandleEntityAsync(await _productRepository.DeleteAsync(product));
 
             return new ProductDTO
             {
@@ -113,7 +116,8 @@ namespace Smart.Business.Services.InternalServices.Abstractions
 
         public async Task<ProductDTO> GetByIdAsync(GetByIdProductDTO dto)
         {
-            var product = await _productRepository.GetByIdAsync(x => x.Id == dto.Id);
+            var product = _productHandler.HandleEntityAsync(
+                await _productRepository.GetByIdAsync(x => x.Id == dto.Id));
 
             if (product == null)
                 throw new Exception("Product not found.");
@@ -135,7 +139,8 @@ namespace Smart.Business.Services.InternalServices.Abstractions
 
         public async Task<ProductDTO> UpdateAsync(UpdateProductDTO dto)
         {
-            var oldProduct = await _productRepository.GetByIdAsync(x => x.Id == dto.Id);
+            var oldProduct = _productHandler.HandleEntityAsync(
+                await _productRepository.GetByIdAsync(x => x.Id == dto.Id));
 
             if (oldProduct == null)
                 throw new Exception("Product not found.");

@@ -3,6 +3,7 @@ using Smart.Business.DTOs.ServiceDTOs;
 using Smart.Business.DTOs.SpecificationDTOs;
 using Smart.Business.Services.InternalServices.Interfaces;
 using Smart.Core.Entities;
+using Smart.DAL.Handlers.Interfaces;
 using Smart.DAL.Repositories.Implementations;
 using Smart.DAL.Repositories.Interfaces;
 using System;
@@ -16,12 +17,14 @@ namespace Smart.Business.Services.InternalServices.Abstractions
     public class SpecificationService : ISpecificationService
     {
         private readonly ISpecificationRepository _specificationRepository;
+        private readonly ISpecificationHandler _specificationHandler;
         private readonly IMapper _mapper;
 
-        public SpecificationService(ISpecificationRepository specificationRepository, IMapper mapper)
+        public SpecificationService(ISpecificationRepository specificationRepository, IMapper mapper, ISpecificationHandler specificationHandler)
         {
             _specificationRepository = specificationRepository;
             _mapper = mapper;
+            _specificationHandler = specificationHandler;
         }
 
         public async Task<SpecificationDTO> CreateAsync(CreateSpecificationDTO dto)
@@ -39,7 +42,7 @@ namespace Smart.Business.Services.InternalServices.Abstractions
         public async Task<SpecificationDTO> DeleteAsync(DeleteSpecificationDTO dto)
         {
             var result = await _specificationRepository.DeleteAsync(
-               await _specificationRepository.GetByIdAsync(x => x.Id == dto.Id));
+               _specificationHandler.HandleEntityAsync(await _specificationRepository.GetByIdAsync(x => x.Id == dto.Id)));
 
             return new SpecificationDTO
             {
@@ -63,7 +66,8 @@ namespace Smart.Business.Services.InternalServices.Abstractions
 
         public async Task<SpecificationDTO> GetByIdAsync(GetByIdSpecificationDTO dto)
         {
-            var entity = await _specificationRepository.GetByIdAsync(x => x.Id == dto.Id);
+            var entity = _specificationHandler.HandleEntityAsync(
+                await _specificationRepository.GetByIdAsync(x => x.Id == dto.Id));
 
             return new SpecificationDTO
             {
@@ -75,7 +79,8 @@ namespace Smart.Business.Services.InternalServices.Abstractions
 
         public async Task<SpecificationDTO> UpdateAsync(UpdateSpecificationDTO dto)
         {
-            var oldEntity = await _specificationRepository.GetByIdAsync(x => x.Id == dto.Id);
+            var oldEntity = _specificationHandler.HandleEntityAsync(await _specificationRepository.GetByIdAsync(x => x.Id == dto.Id));
+
             var entity = await _specificationRepository.UpdateAsync(
                 _mapper.Map(dto, oldEntity));
 

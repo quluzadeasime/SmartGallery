@@ -8,5 +8,5 @@ using System.Threading.Tasks;
 
 namespace Smart.DAL.Handlers.Implementations
 {
-    public class BrandHandler : Handler<Brand>,IBrandHandler { }
+    public class BrandHandler : Handler<Brand>, IBrandHandler { }
 }

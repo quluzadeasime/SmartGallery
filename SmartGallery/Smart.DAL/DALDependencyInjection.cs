@@ -91,17 +91,24 @@ namespace Smart.DAL
         {
             var handlers = new Dictionary<Type, Type>
             {
-                {typeof(IColorHandler),typeof(ColorHandler) },
-                {typeof(IBrandHandler),typeof(BrandHandler) },
-                {typeof(IContactHandler),typeof(ContactHandler) },
-                {typeof(ISettingHandler),typeof(SettingHandler) },
-                {typeof(IServiceHandler),typeof(ServiceHandler) },
-                {typeof(IProductHandler),typeof(ProductHandler) },
-                {typeof(ICategoryHandler),typeof(CategoryHandler) },
-                {typeof(IProductImageHandler),typeof(ProductImageHandler) },
-                {typeof(IProductColorHandler),typeof(ProductColorHandler) },
-                {typeof(ISpecificationHandler),typeof(SpecificationHandler) }
+                  {typeof(IColorHandler),typeof(ColorHandler) },
+                  {typeof(IBrandHandler),typeof(BrandHandler) },
+                  {typeof(IContactHandler),typeof(ContactHandler) },
+                  {typeof(ISettingHandler),typeof(SettingHandler) },
+                  {typeof(IServiceHandler),typeof(ServiceHandler) },
+                  {typeof(IProductHandler),typeof(ProductHandler) },
+                  {typeof(ICategoryHandler),typeof(CategoryHandler) },
+                  {typeof(IProductImageHandler),typeof(ProductImageHandler) },
+                  {typeof(IProductColorHandler),typeof(ProductColorHandler) },
+                  {typeof(ISpecificationHandler),typeof(SpecificationHandler) } 
+
             };
+
+            foreach (var handler in handlers)
+            {
+                services.AddScoped(handler.Key, handler.Value);
+            }
         }
+
     }
 }

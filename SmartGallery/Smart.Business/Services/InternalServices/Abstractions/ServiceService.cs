@@ -4,6 +4,7 @@ using Smart.Business.DTOs.ColorDTOs;
 using Smart.Business.DTOs.ServiceDTOs;
 using Smart.Business.Services.InternalServices.Interfaces;
 using Smart.Core.Entities;
+using Smart.DAL.Handlers.Interfaces;
 using Smart.DAL.Repositories.Implementations;
 using Smart.DAL.Repositories.Interfaces;
 using System;
@@ -17,11 +18,13 @@ namespace Smart.Business.Services.InternalServices.Abstractions
     public class ServiceService : IServiceService
     {
         private readonly IServiceRepository _serviceRepository;
+        private readonly IServiceHandler _serviceHandler;
         private readonly IMapper _mapper;
-        public ServiceService(IServiceRepository serviceRepository, IMapper mapper = null)
+        public ServiceService(IServiceRepository serviceRepository, IMapper mapper = null, IServiceHandler serviceHandler = null)
         {
             _serviceRepository = serviceRepository;
             _mapper = mapper;
+            _serviceHandler = serviceHandler;
         }
 
         public async Task<ServiceDTO> CreateAsync(CreateServiceDTO dto)
@@ -40,7 +43,7 @@ namespace Smart.Business.Services.InternalServices.Abstractions
         public async Task<ServiceDTO> DeleteAsync(DeleteServiceDTO dto)
         {
             var result = await _serviceRepository.DeleteAsync(
-                await _serviceRepository.GetByIdAsync(x => x.Id == dto.Id));
+                _serviceHandler.HandleEntityAsync(await _serviceRepository.GetByIdAsync(x => x.Id == dto.Id)));
 
             return new ServiceDTO
             {
@@ -66,7 +69,8 @@ namespace Smart.Business.Services.InternalServices.Abstractions
 
         public async Task<ServiceDTO> GetByIdAsync(GetByIdServiceDTO dto)
         {
-            var entity = await _serviceRepository.GetByIdAsync(x => x.Id == dto.Id);
+            var entity = _serviceHandler.HandleEntityAsync(
+                await _serviceRepository.GetByIdAsync(x => x.Id == dto.Id));
 
             return new ServiceDTO
             {
@@ -79,7 +83,9 @@ namespace Smart.Business.Services.InternalServices.Abstractions
 
         public async Task<ServiceDTO> UpdateAsync(UpdateServiceDTO dto)
         {
-            var oldEntity = await _serviceRepository.GetByIdAsync(x => x.Id == dto.Id);
+            var oldEntity = _serviceHandler.HandleEntityAsync(
+                await _serviceRepository.GetByIdAsync(x => x.Id == dto.Id));
+
             var entity = await _serviceRepository.UpdateAsync(
                 _mapper.Map(dto, oldEntity));
 

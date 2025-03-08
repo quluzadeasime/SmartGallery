@@ -2,6 +2,7 @@
 using Smart.Business.DTOs.CategoryDTOs;
 using Smart.Business.Services.InternalServices.Interfaces;
 using Smart.Core.Entities;
+using Smart.DAL.Handlers.Interfaces;
 using Smart.DAL.Repositories.Interfaces;
 using System;
 using System.Collections.Generic;
@@ -14,12 +15,14 @@ namespace Smart.Business.Services.InternalServices.Abstractions
     public class CategoryService : ICategoryService
     {
         private readonly ICategoryRepository _categoryRepository;
+        private readonly ICategoryHandler _categoryHandler;
         private readonly IMapper _mapper;
 
-        public CategoryService(ICategoryRepository categoryRepository, IMapper mapper = null)
+        public CategoryService(ICategoryRepository categoryRepository, IMapper mapper = null, ICategoryHandler categoryHandler = null)
         {
             _categoryRepository = categoryRepository;
             _mapper = mapper;
+            _categoryHandler = categoryHandler;
         }
 
         public async Task<CategoryDTO> CreateAsync(CreateCategoryDTO dto)
@@ -36,7 +39,7 @@ namespace Smart.Business.Services.InternalServices.Abstractions
         public async Task<CategoryDTO> DeleteAsync(DeleteCategoryDTO dto)
         {
             var result = await _categoryRepository.DeleteAsync(
-                await _categoryRepository.GetByIdAsync(x => x.Id == dto.Id));
+                _categoryHandler.HandleEntityAsync(await _categoryRepository.GetByIdAsync(x => x.Id == dto.Id)));
 
             return new CategoryDTO
             {
@@ -58,7 +61,8 @@ namespace Smart.Business.Services.InternalServices.Abstractions
 
         public async Task<CategoryDTO> GetByIdAsync(GetByIdCategoryDTO dto)
         {
-            var entity = await _categoryRepository.GetByIdAsync(x => x.Id == dto.Id);
+            var entity = _categoryHandler.HandleEntityAsync(
+                await _categoryRepository.GetByIdAsync(x => x.Id == dto.Id));
 
             return new CategoryDTO
             {
@@ -69,7 +73,9 @@ namespace Smart.Business.Services.InternalServices.Abstractions
 
         public async Task<CategoryDTO> UpdateAsync(UpdateCategoryDTO dto)
         {
-            var oldEntity = await _categoryRepository.GetByIdAsync(x => x.Id == dto.Id);
+            var oldEntity = _categoryHandler.HandleEntityAsync(
+                await _categoryRepository.GetByIdAsync(x => x.Id == dto.Id));
+
             var result = await _categoryRepository.UpdateAsync(
                 _mapper.Map(dto, oldEntity));
 

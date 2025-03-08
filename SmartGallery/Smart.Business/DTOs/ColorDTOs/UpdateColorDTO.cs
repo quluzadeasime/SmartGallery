@@ -1,4 +1,5 @@
-﻿using Smart.Core.Entities.Commons;
+﻿using Smart.Business.DTOs.Commons;
+using Smart.Core.Entities.Commons;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Smart.Business.DTOs.ColorDTOs
 {
-    public class UpdateColorDTO : BaseEntity
+    public class UpdateColorDTO : BaseEntityDTO
     {
         public string Name { get; set; }
     }

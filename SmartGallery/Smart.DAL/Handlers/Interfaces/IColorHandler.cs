@@ -5,8 +5,9 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Color = Smart.Core.Entities.Color;
 
 namespace Smart.DAL.Handlers.Interfaces
 {
-    public interface IColorHandler : IHandler<Core.Entities.Color> { }
+    public interface IColorHandler : IHandler<Color> { }
 }

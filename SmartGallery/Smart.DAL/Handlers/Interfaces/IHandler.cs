@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Smart.DAL.Handlers.Interfaces
 {
-    public interface IHandler<T> where T:BaseEntity
+    public interface IHandler<T> where T : BaseEntity
     {
         T HandleEntityAsync(T entity);
     }
