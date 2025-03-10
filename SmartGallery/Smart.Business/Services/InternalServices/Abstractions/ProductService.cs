@@ -65,9 +65,11 @@ namespace Smart.Business.Services.InternalServices.Abstractions
                 Specifications = result.Specifications.Select(spec => new SpecificationDTO
                 {
                     Key = spec.Key,
-                    Value = spec.Value
+                    Value = spec.Value,
+                    Id = spec.ProductId
                 }).ToList()
             };
+
         }
 
 
