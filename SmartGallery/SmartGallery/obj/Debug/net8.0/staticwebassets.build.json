@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "Sz5GUOcafCkY4ufiRYlWqG2VsZwiG/t2t6VBa9q7aTs=",
+  "Hash": "jhBC1+MKe3jTmYwa260ywvjEJUACerbFqxp8ECux7UU=",
   "Source": "Smart.API",
   "BasePath": "_content/Smart.API",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }

@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Smart.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+abfc609eb49742b03dcfc1c6a2207ca3a5094175")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+70933a2f9879a2852e11f052708af61ea1575485")]
 [assembly: System.Reflection.AssemblyProductAttribute("Smart.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Smart.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1023,14 +1023,7 @@
           "System.Runtime": "4.3.1"
         }
       },
-      "System.Diagnostics.DiagnosticSource/8.0.1": {
-        "runtime": {
-          "lib/net8.0/System.Diagnostics.DiagnosticSource.dll": {
-            "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.424.16909"
-          }
-        }
-      },
+      "System.Diagnostics.DiagnosticSource/8.0.1": {},
       "System.Diagnostics.EventLog/8.0.0": {},
       "System.Diagnostics.Process/4.3.0": {
         "dependencies": {
@@ -1083,14 +1076,7 @@
           "System.Threading": "4.3.0"
         }
       },
-      "System.Formats.Asn1/8.0.1": {
-        "runtime": {
-          "lib/net8.0/System.Formats.Asn1.dll": {
-            "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.724.31311"
-          }
-        }
-      },
+      "System.Formats.Asn1/8.0.1": {},
       "System.Globalization/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.1",
@@ -1696,7 +1682,10 @@
           "Microsoft.AspNetCore.Identity.UI": "8.0.13"
         },
         "runtime": {
-          "Smart.Core.dll": {}
+          "Smart.Core.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Smart.DAL/1.0.0": {
@@ -1707,7 +1696,10 @@
           "Smart.Shared": "1.0.0"
         },
         "runtime": {
-          "Smart.DAL.dll": {}
+          "Smart.DAL.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Smart.Shared/1.0.0": {
@@ -1716,7 +1708,10 @@
           "Smart.Core": "1.0.0"
         },
         "runtime": {
-          "Smart.Shared.dll": {}
+          "Smart.Shared.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

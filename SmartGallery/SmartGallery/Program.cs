@@ -11,7 +11,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddHttpContextAccessor();
 builder.Services.AddDataAccess(builder.Configuration)
-                .AddBusiness();
+                .AddBusiness(builder.Configuration);
 builder.Services.AddJwt(builder.Configuration);
 builder.Services.AddSwagger();
 builder.Services.AddControllers();
