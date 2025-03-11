@@ -17,12 +17,11 @@ namespace Smart.Business.Services.ExternalServices.Abstractions
         private readonly IWebHostEnvironment _environment;
         private readonly Cloudinary _cloudinary;
 
-        public FileManagerService(IWebHostEnvironment environment, Cloudinary cloudinary = null)
+        public FileManagerService(IWebHostEnvironment environment, Cloudinary cloudinary)
         {
             _environment = environment;
             _cloudinary = cloudinary;
         }
-
 
         public static bool BeAValidImage(IFormFile file)
         {

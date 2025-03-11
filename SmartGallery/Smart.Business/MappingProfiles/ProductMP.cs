@@ -15,26 +15,10 @@ namespace Smart.Business.MappingProfiles
         public ProductMP()
         {
             // Create section: CreateProductDTO -> Product
-            CreateMap<CreateProductDTO, Product>()
-                .ForMember(dest => dest.Specifications, opt =>
-                    opt.MapFrom(src => src.Specifications.Select(s => new Specification
-                    {
-                        Key = s.Key,
-                        Value = s.Value
-                    }).ToList())
-                )
-                .ReverseMap();
+            CreateMap<CreateProductDTO, Product>().ReverseMap();
 
             // Update section: CreateProductDTO -> Product (Aynı şəkildə təkrarlamaq lazım ola bilər)
-            CreateMap<CreateProductDTO, Product>()
-                .ForMember(dest => dest.Specifications, opt =>
-                    opt.MapFrom(src => src.Specifications.Select(s => new Specification
-                    {
-                        Key = s.Key,
-                        Value = s.Value
-                    }).ToList())
-                )
-                .ReverseMap();
+            CreateMap<CreateProductDTO, Product>().ReverseMap();
         }
     }
 }

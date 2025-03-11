@@ -1,4 +1,5 @@
-﻿using Smart.Business.DTOs.Commons;
+﻿using Microsoft.AspNetCore.Http;
+using Smart.Business.DTOs.Commons;
 using System;
 using System.Collections.Generic;
 using System.Linq;

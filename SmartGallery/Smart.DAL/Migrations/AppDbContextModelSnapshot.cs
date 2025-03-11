@@ -456,6 +456,9 @@ namespace Smart.DAL.Migrations
                     b.Property<int?>("Discount")
                         .HasColumnType("int");
 
+                    b.Property<decimal>("DiscountedPrice")
+                        .HasColumnType("decimal(18,2)");
+
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
 
@@ -471,6 +474,9 @@ namespace Smart.DAL.Migrations
 
                     b.Property<int>("RatingCount")
                         .HasColumnType("int");
+
+                    b.Property<decimal>("TotalPrice")
+                        .HasColumnType("decimal(18,2)");
 
                     b.Property<string>("UpdatedBy")
                         .IsRequired()

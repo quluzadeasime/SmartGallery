@@ -1,4 +1,5 @@
-﻿using Smart.Business.DTOs.Commons;
+﻿using Microsoft.AspNetCore.Http;
+using Smart.Business.DTOs.Commons;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +10,6 @@ namespace Smart.Business.DTOs.BrandDTOs
 {
     public class UpdateBrandDTO : BaseEntityDTO
     {
-        public string ImageUrl { get; set; }
+        public IFormFile ImageUrl { get; set; }
     }
 }

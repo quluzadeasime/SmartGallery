@@ -29,7 +29,8 @@ namespace Smart.Business.Services.InternalServices.Abstractions
 
         public async Task<SpecificationDTO> CreateAsync(CreateSpecificationDTO dto)
         {
-            var result = await _specificationRepository.AddAsync(_mapper.Map<Specification>(dto));
+            var entity = _mapper.Map<Specification>(dto);
+            var result = await _specificationRepository.AddAsync(entity);
 
             return new SpecificationDTO
             {
@@ -80,7 +81,6 @@ namespace Smart.Business.Services.InternalServices.Abstractions
         public async Task<SpecificationDTO> UpdateAsync(UpdateSpecificationDTO dto)
         {
             var oldEntity = _specificationHandler.HandleEntityAsync(await _specificationRepository.GetByIdAsync(x => x.Id == dto.Id));
-
             var entity = await _specificationRepository.UpdateAsync(
                 _mapper.Map(dto, oldEntity));
 

@@ -1,7 +1,11 @@
-﻿using FluentValidation.AspNetCore;
+﻿using CloudinaryDotNet;
+using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Mvc.ApplicationModels;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Smart.Business.Helpers;
+using Smart.Business.Services.ExternalServices.Abstractions;
+using Smart.Business.Services.ExternalServices.Interfaces;
 using Smart.Business.Services.InternalServices.Abstractions;
 using Smart.Business.Services.InternalServices.Interfaces;
 using Smart.Shared.Implementations;
@@ -17,11 +21,12 @@ namespace Smart.Business
 {
     public static class BusinessDependencyInjection
     {
-        public static IServiceCollection AddBusiness(this IServiceCollection services)
+        public static IServiceCollection AddBusiness(this IServiceCollection services, IConfiguration configuration)
         {
             services.AddServices();
-            services.RegisterAutoMapper();
             services.AddControllers();
+            services.RegisterAutoMapper();
+            services.AddCloud(configuration);
 
 
             return services;
@@ -29,6 +34,9 @@ namespace Smart.Business
 
         private static void AddServices(this IServiceCollection services)
         {
+
+            // Internal Services
+
             services.AddScoped<IClaimService, ClaimService>();
             services.AddScoped<IBrandService, BrandService>();
             services.AddScoped<IColorService, ColorService>();
@@ -36,16 +44,30 @@ namespace Smart.Business
             services.AddScoped<IServiceService, ServiceService>();
             services.AddScoped<IProductService, ProductService>();
             services.AddScoped<ISettingService, SettingService>();
+            services.AddScoped<IAccountService, AccountService>();
             services.AddScoped<ICategoryService, CategoryService>();
             services.AddScoped<ISubscriptionService, SubscriptionService>();
             services.AddScoped<ISpecificationService, SpecificationService>();
 
-            // Services adding here!!!
+            // External Services
+            services.AddScoped<IFileManagerService, FileManagerService>();
         }
 
         private static void RegisterAutoMapper(this IServiceCollection services)
         {
             services.AddAutoMapper(typeof(BusinessDependencyInjection));
+        }
+
+        private static void AddCloud(this IServiceCollection services, IConfiguration configuration)
+        {
+            var cloudName = configuration["Cloudinary:CloudName"];
+            var cloudApiKey = configuration["Cloudinary:ApiKey"];
+            var cloudApiSecret = configuration["Cloudinary:ApiSecret"];
+
+            var account = new Account(cloudName, cloudApiKey, cloudApiSecret);
+            var cloudinary = new Cloudinary(account);
+
+            services.AddSingleton(cloudinary);
         }
 
         public class PluralizedRouteConvention : IControllerModelConvention

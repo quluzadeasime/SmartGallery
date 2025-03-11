@@ -13,15 +13,13 @@ namespace Smart.Business.DTOs.ProductDTOs
         {
             public string Name { get; set; }
             public int BrandId { get; set; }
-            public float Rating { get; set; } = 0;
+            public float Rating { get; set; }
             public decimal Price { get; set; }
             public int? Discount { get; set; }
             public int CategoryId { get; set; }
             public int RatingCount { get; set; }
             public string Description { get; set; }
-            public ICollection<int> ColorIds { get; set; }
+            public ICollection<int>? ColorIds { get; set; }
             public ICollection<IFormFile> Images { get; set; } 
-            public ICollection<string> ImageUrls { get; set; }
-            public ICollection<CreateSpecificationDTO> Specifications { get; set; }
     }
 }

@@ -11,3 +11,16 @@ C:\Users\Asime\Desktop\SmartGallery\SmartGallery\Smart.Core\obj\Debug\net8.0\Sma
 C:\Users\Asime\Desktop\SmartGallery\SmartGallery\Smart.Core\obj\Debug\net8.0\refint\Smart.Core.dll
 C:\Users\Asime\Desktop\SmartGallery\SmartGallery\Smart.Core\obj\Debug\net8.0\Smart.Core.pdb
 C:\Users\Asime\Desktop\SmartGallery\SmartGallery\Smart.Core\obj\Debug\net8.0\ref\Smart.Core.dll
+C:\Users\ilkin\OneDrive\Desktop\SmartGallery\SmartGallery\Smart.Core\bin\Debug\net8.0\Smart.Core.deps.json
+C:\Users\ilkin\OneDrive\Desktop\SmartGallery\SmartGallery\Smart.Core\bin\Debug\net8.0\Smart.Core.dll
+C:\Users\ilkin\OneDrive\Desktop\SmartGallery\SmartGallery\Smart.Core\bin\Debug\net8.0\Smart.Core.pdb
+C:\Users\ilkin\OneDrive\Desktop\SmartGallery\SmartGallery\Smart.Core\obj\Debug\net8.0\Smart.Core.csproj.AssemblyReference.cache
+C:\Users\ilkin\OneDrive\Desktop\SmartGallery\SmartGallery\Smart.Core\obj\Debug\net8.0\Smart.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ilkin\OneDrive\Desktop\SmartGallery\SmartGallery\Smart.Core\obj\Debug\net8.0\Smart.Core.AssemblyInfoInputs.cache
+C:\Users\ilkin\OneDrive\Desktop\SmartGallery\SmartGallery\Smart.Core\obj\Debug\net8.0\Smart.Core.AssemblyInfo.cs
+C:\Users\ilkin\OneDrive\Desktop\SmartGallery\SmartGallery\Smart.Core\obj\Debug\net8.0\Smart.Core.csproj.CoreCompileInputs.cache
+C:\Users\ilkin\OneDrive\Desktop\SmartGallery\SmartGallery\Smart.Core\obj\Debug\net8.0\Smart.Core.sourcelink.json
+C:\Users\ilkin\OneDrive\Desktop\SmartGallery\SmartGallery\Smart.Core\obj\Debug\net8.0\Smart.Core.dll
+C:\Users\ilkin\OneDrive\Desktop\SmartGallery\SmartGallery\Smart.Core\obj\Debug\net8.0\refint\Smart.Core.dll
+C:\Users\ilkin\OneDrive\Desktop\SmartGallery\SmartGallery\Smart.Core\obj\Debug\net8.0\Smart.Core.pdb
+C:\Users\ilkin\OneDrive\Desktop\SmartGallery\SmartGallery\Smart.Core\obj\Debug\net8.0\ref\Smart.Core.dll
