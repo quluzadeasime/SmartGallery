@@ -1,5 +1,6 @@
 ﻿using iText.Forms.Form.Element;
 using Microsoft.AspNetCore.Http;
+using Smart.Business.DTOs.Commons;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,8 +9,8 @@ using System.Threading.Tasks;
 
 namespace Smart.Business.DTOs.BrandDTOs
 {
-    public class CreateBrandDTO
+    public class CreateBrandDTO : IAuditedentityDTO
     {
-        public IFormFile ImageUrl { get; set; }
+        public IFormFile Image { get; set; }
     }
 }

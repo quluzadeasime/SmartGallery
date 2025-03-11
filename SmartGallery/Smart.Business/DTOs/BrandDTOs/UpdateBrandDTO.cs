@@ -8,8 +8,8 @@ using System.Threading.Tasks;
 
 namespace Smart.Business.DTOs.BrandDTOs
 {
-    public class UpdateBrandDTO : BaseEntityDTO
+    public class UpdateBrandDTO : BaseEntityDTO, IAuditedentityDTO
     {
-        public IFormFile ImageUrl { get; set; }
+        public IFormFile Image { get; set; }
     }
 }

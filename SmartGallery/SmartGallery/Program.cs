@@ -1,6 +1,7 @@
 using App.DAL.Presistence;
 using Smart.API;
 using Smart.Business;
+using Smart.Core.Exceptions.Commons;
 using Smart.DAL;
 using Smart.Shared.Implementations;
 using Smart.Shared.Interfaces;
@@ -16,6 +17,9 @@ builder.Services.AddJwt(builder.Configuration);
 builder.Services.AddSwagger();
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
+
+builder.Configuration.AddJsonFile("language.json", optional: false, reloadOnChange: true);
+builder.Services.Configure<LanguageSettings>(builder.Configuration);
 
 var app = builder.Build();
 
