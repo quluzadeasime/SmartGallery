@@ -19,7 +19,7 @@ namespace Smart.Business.Services.InternalServices.Abstractions
         private readonly IColorRepository _colorRepository;
         private readonly IColorHandler _colorHandler;
         private readonly IMapper _mapper;
-        public ColorService(IColorRepository colorRepository, IMapper mapper = null, IColorHandler colorHandler = null)
+        public ColorService(IColorRepository colorRepository, IMapper mapper, IColorHandler colorHandler)
         {
             _colorRepository = colorRepository;
             _mapper = mapper;

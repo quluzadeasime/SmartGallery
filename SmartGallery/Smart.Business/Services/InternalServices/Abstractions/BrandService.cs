@@ -19,7 +19,7 @@ namespace Smart.Business.Services.InternalServices.Abstractions
         private readonly IBrandHandler _brandHandler;
         private readonly IMapper _mapper;
 
-        public BrandService(IBrandRepository brandRepository, IMapper mapper = null, IBrandHandler brandHandler = null)
+        public BrandService(IBrandRepository brandRepository, IMapper mapper, IBrandHandler brandHandler)
         {
             _brandRepository = brandRepository;
             _mapper = mapper;

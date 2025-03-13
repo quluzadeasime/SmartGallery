@@ -20,7 +20,7 @@ namespace Smart.Business.Services.InternalServices.Abstractions
         private readonly IServiceRepository _serviceRepository;
         private readonly IServiceHandler _serviceHandler;
         private readonly IMapper _mapper;
-        public ServiceService(IServiceRepository serviceRepository, IMapper mapper = null, IServiceHandler serviceHandler = null)
+        public ServiceService(IServiceRepository serviceRepository, IMapper mapper, IServiceHandler serviceHandler)
         {
             _serviceRepository = serviceRepository;
             _mapper = mapper;

@@ -18,7 +18,7 @@ namespace Smart.Business.Services.InternalServices.Abstractions
         private readonly ICategoryHandler _categoryHandler;
         private readonly IMapper _mapper;
 
-        public CategoryService(ICategoryRepository categoryRepository, IMapper mapper = null, ICategoryHandler categoryHandler = null)
+        public CategoryService(ICategoryRepository categoryRepository, IMapper mapper, ICategoryHandler categoryHandler)
         {
             _categoryRepository = categoryRepository;
             _mapper = mapper;

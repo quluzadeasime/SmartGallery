@@ -1,6 +1,7 @@
 ﻿using App.DAL.Presistence;
 using AutoMapper;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Configuration;
 using Smart.Business.DTOs.UserDTOs;
@@ -37,6 +38,7 @@ namespace Smart.Business.Services.InternalServices.Abstractions
         public Task<ChangePasswordResponseDTO> ChangePasswordAsync(ChangePasswordUserDTO dto, string userId)
         {
             throw new NotImplementedException();
+
         }
 
         public Task ChangeUserStatus(string userId)
@@ -89,9 +91,11 @@ namespace Smart.Business.Services.InternalServices.Abstractions
             throw new NotImplementedException();
         }
 
-        public Task LogoutAsync(LogoutDTO dto)
+        public async Task LogoutAsync(LogoutDTO dto)
         {
-            throw new NotImplementedException();
+            //var oldUser = await CheckNotFoundByIdAsync(dto.UserId);
+
+            
         }
 
         public Task<RegisterUserResponseDTO> RegisterAsync(RegisterUserDTO dto)

@@ -19,7 +19,7 @@ namespace Smart.Business.Services.InternalServices.Abstractions
         private readonly IMapper _mapper;
         private readonly IContactHandler _contactHandler;
 
-        public ContactService(IContactRepository contactRepository, IMapper mapper = null, IContactHandler contactHandler = null)
+        public ContactService(IContactRepository contactRepository, IMapper mapper, IContactHandler contactHandler)
         {
             _contactRepository = contactRepository;
             _mapper = mapper;

@@ -21,7 +21,7 @@ namespace Smart.Business.Services.InternalServices.Abstractions
         private readonly ISettingHandler _settingHandler;
         private readonly IMapper _mapper;
 
-        public SettingService(ISettingRepository settingRepository, IMapper mapper = null, ISettingHandler settingHandler = null)
+        public SettingService(ISettingRepository settingRepository, IMapper mapper, ISettingHandler settingHandler)
         {
             _settingRepository = settingRepository;
             _mapper = mapper;

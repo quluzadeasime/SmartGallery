@@ -7,12 +7,16 @@
       "RelativeMoniker": "D:0:0:{F0832F7A-2A6A-4DB9-8C9E-D6A7A3DCBC32}|Smart.Business\\Smart.Business.csproj|solutionrelative:smart.business\\services\\internalservices\\abstractions\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0832F7A-2A6A-4DB9-8C9E-D6A7A3DCBC32}|Smart.Business\\Smart.Business.csproj|c:\\users\\asime\\desktop\\smartgallery\\smartgallery\\smart.business\\services\\internalservices\\interfaces\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0832F7A-2A6A-4DB9-8C9E-D6A7A3DCBC32}|Smart.Business\\Smart.Business.csproj|solutionrelative:smart.business\\services\\internalservices\\interfaces\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F0832F7A-2A6A-4DB9-8C9E-D6A7A3DCBC32}|Smart.Business\\Smart.Business.csproj|c:\\users\\asime\\desktop\\smartgallery\\smartgallery\\smart.business\\dtos\\userdtos\\loginuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0832F7A-2A6A-4DB9-8C9E-D6A7A3DCBC32}|Smart.Business\\Smart.Business.csproj|solutionrelative:smart.business\\dtos\\userdtos\\loginuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0832F7A-2A6A-4DB9-8C9E-D6A7A3DCBC32}|Smart.Business\\Smart.Business.csproj|c:\\users\\asime\\desktop\\smartgallery\\smartgallery\\smart.business\\services\\internalservices\\interfaces\\ibrandservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0832F7A-2A6A-4DB9-8C9E-D6A7A3DCBC32}|Smart.Business\\Smart.Business.csproj|solutionrelative:smart.business\\services\\internalservices\\interfaces\\ibrandservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F0832F7A-2A6A-4DB9-8C9E-D6A7A3DCBC32}|Smart.Business\\Smart.Business.csproj|c:\\users\\asime\\desktop\\smartgallery\\smartgallery\\smart.business\\dtos\\userdtos\\changepassworduserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0832F7A-2A6A-4DB9-8C9E-D6A7A3DCBC32}|Smart.Business\\Smart.Business.csproj|solutionrelative:smart.business\\dtos\\userdtos\\changepassworduserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0832F7A-2A6A-4DB9-8C9E-D6A7A3DCBC32}|Smart.Business\\Smart.Business.csproj|c:\\users\\asime\\desktop\\smartgallery\\smartgallery\\smart.business\\dtos\\userdtos\\clicktoresetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0832F7A-2A6A-4DB9-8C9E-D6A7A3DCBC32}|Smart.Business\\Smart.Business.csproj|solutionrelative:smart.business\\dtos\\userdtos\\clicktoresetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F0832F7A-2A6A-4DB9-8C9E-D6A7A3DCBC32}|Smart.Business\\Smart.Business.csproj|c:\\users\\asime\\desktop\\smartgallery\\smartgallery\\smart.business\\dtos\\userdtos\\forgotpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,52 +27,48 @@
       "RelativeMoniker": "D:0:0:{F0832F7A-2A6A-4DB9-8C9E-D6A7A3DCBC32}|Smart.Business\\Smart.Business.csproj|solutionrelative:smart.business\\dtos\\userdtos\\logoutdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28562DF2-87AF-4B20-AFC8-93A183FF8EEA}|SmartGallery\\Smart.API.csproj|c:\\users\\asime\\desktop\\smartgallery\\smartgallery\\smartgallery\\apidependecyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28562DF2-87AF-4B20-AFC8-93A183FF8EEA}|SmartGallery\\Smart.API.csproj|solutionrelative:smartgallery\\apidependecyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F0832F7A-2A6A-4DB9-8C9E-D6A7A3DCBC32}|Smart.Business\\Smart.Business.csproj|c:\\users\\asime\\desktop\\smartgallery\\smartgallery\\smart.business\\businessdependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0832F7A-2A6A-4DB9-8C9E-D6A7A3DCBC32}|Smart.Business\\Smart.Business.csproj|solutionrelative:smart.business\\businessdependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F0832F7A-2A6A-4DB9-8C9E-D6A7A3DCBC32}|Smart.Business\\Smart.Business.csproj|c:\\users\\asime\\desktop\\smartgallery\\smartgallery\\smart.business\\dtos\\userdtos\\usertimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F0832F7A-2A6A-4DB9-8C9E-D6A7A3DCBC32}|Smart.Business\\Smart.Business.csproj|solutionrelative:smart.business\\dtos\\userdtos\\usertimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0832F7A-2A6A-4DB9-8C9E-D6A7A3DCBC32}|Smart.Business\\Smart.Business.csproj|c:\\users\\asime\\desktop\\smartgallery\\smartgallery\\smart.business\\dtos\\userdtos\\userstatusdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0832F7A-2A6A-4DB9-8C9E-D6A7A3DCBC32}|Smart.Business\\Smart.Business.csproj|solutionrelative:smart.business\\dtos\\userdtos\\userstatusdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F0832F7A-2A6A-4DB9-8C9E-D6A7A3DCBC32}|Smart.Business\\Smart.Business.csproj|c:\\users\\asime\\desktop\\smartgallery\\smartgallery\\smart.business\\dtos\\userdtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0832F7A-2A6A-4DB9-8C9E-D6A7A3DCBC32}|Smart.Business\\Smart.Business.csproj|solutionrelative:smart.business\\dtos\\userdtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0832F7A-2A6A-4DB9-8C9E-D6A7A3DCBC32}|Smart.Business\\Smart.Business.csproj|c:\\users\\asime\\desktop\\smartgallery\\smartgallery\\smart.business\\validators\\uservalidators\\resetpassworduserdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0832F7A-2A6A-4DB9-8C9E-D6A7A3DCBC32}|Smart.Business\\Smart.Business.csproj|solutionrelative:smart.business\\validators\\uservalidators\\resetpassworduserdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F0832F7A-2A6A-4DB9-8C9E-D6A7A3DCBC32}|Smart.Business\\Smart.Business.csproj|c:\\users\\asime\\desktop\\smartgallery\\smartgallery\\smart.business\\services\\internalservices\\abstractions\\subscriptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0832F7A-2A6A-4DB9-8C9E-D6A7A3DCBC32}|Smart.Business\\Smart.Business.csproj|solutionrelative:smart.business\\services\\internalservices\\abstractions\\subscriptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0832F7A-2A6A-4DB9-8C9E-D6A7A3DCBC32}|Smart.Business\\Smart.Business.csproj|c:\\users\\asime\\desktop\\smartgallery\\smartgallery\\smart.business\\dtos\\userdtos\\resetpassworduserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0832F7A-2A6A-4DB9-8C9E-D6A7A3DCBC32}|Smart.Business\\Smart.Business.csproj|solutionrelative:smart.business\\dtos\\userdtos\\resetpassworduserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F0832F7A-2A6A-4DB9-8C9E-D6A7A3DCBC32}|Smart.Business\\Smart.Business.csproj|c:\\users\\asime\\desktop\\smartgallery\\smartgallery\\smart.business\\services\\internalservices\\abstractions\\specificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0832F7A-2A6A-4DB9-8C9E-D6A7A3DCBC32}|Smart.Business\\Smart.Business.csproj|solutionrelative:smart.business\\services\\internalservices\\abstractions\\specificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0832F7A-2A6A-4DB9-8C9E-D6A7A3DCBC32}|Smart.Business\\Smart.Business.csproj|c:\\users\\asime\\desktop\\smartgallery\\smartgallery\\smart.business\\validators\\uservalidators\\changepassworduserdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0832F7A-2A6A-4DB9-8C9E-D6A7A3DCBC32}|Smart.Business\\Smart.Business.csproj|solutionrelative:smart.business\\validators\\uservalidators\\changepassworduserdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F0832F7A-2A6A-4DB9-8C9E-D6A7A3DCBC32}|Smart.Business\\Smart.Business.csproj|c:\\users\\asime\\desktop\\smartgallery\\smartgallery\\smart.business\\services\\internalservices\\abstractions\\serviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0832F7A-2A6A-4DB9-8C9E-D6A7A3DCBC32}|Smart.Business\\Smart.Business.csproj|solutionrelative:smart.business\\services\\internalservices\\abstractions\\serviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0832F7A-2A6A-4DB9-8C9E-D6A7A3DCBC32}|Smart.Business\\Smart.Business.csproj|c:\\users\\asime\\desktop\\smartgallery\\smartgallery\\smart.business\\validators\\uservalidators\\registeruserdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0832F7A-2A6A-4DB9-8C9E-D6A7A3DCBC32}|Smart.Business\\Smart.Business.csproj|solutionrelative:smart.business\\validators\\uservalidators\\registeruserdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F0832F7A-2A6A-4DB9-8C9E-D6A7A3DCBC32}|Smart.Business\\Smart.Business.csproj|c:\\users\\asime\\desktop\\smartgallery\\smartgallery\\smart.business\\services\\internalservices\\abstractions\\settingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0832F7A-2A6A-4DB9-8C9E-D6A7A3DCBC32}|Smart.Business\\Smart.Business.csproj|solutionrelative:smart.business\\services\\internalservices\\abstractions\\settingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0832F7A-2A6A-4DB9-8C9E-D6A7A3DCBC32}|Smart.Business\\Smart.Business.csproj|c:\\users\\asime\\desktop\\smartgallery\\smartgallery\\smart.business\\validators\\uservalidators\\clicktoresetdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0832F7A-2A6A-4DB9-8C9E-D6A7A3DCBC32}|Smart.Business\\Smart.Business.csproj|solutionrelative:smart.business\\validators\\uservalidators\\clicktoresetdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F0832F7A-2A6A-4DB9-8C9E-D6A7A3DCBC32}|Smart.Business\\Smart.Business.csproj|c:\\users\\asime\\desktop\\smartgallery\\smartgallery\\smart.business\\services\\internalservices\\abstractions\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0832F7A-2A6A-4DB9-8C9E-D6A7A3DCBC32}|Smart.Business\\Smart.Business.csproj|solutionrelative:smart.business\\services\\internalservices\\abstractions\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0832F7A-2A6A-4DB9-8C9E-D6A7A3DCBC32}|Smart.Business\\Smart.Business.csproj|c:\\users\\asime\\desktop\\smartgallery\\smartgallery\\smart.business\\validators\\uservalidators\\forgotpassworddtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0832F7A-2A6A-4DB9-8C9E-D6A7A3DCBC32}|Smart.Business\\Smart.Business.csproj|solutionrelative:smart.business\\validators\\uservalidators\\forgotpassworddtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F0832F7A-2A6A-4DB9-8C9E-D6A7A3DCBC32}|Smart.Business\\Smart.Business.csproj|c:\\users\\asime\\desktop\\smartgallery\\smartgallery\\smart.business\\services\\internalservices\\abstractions\\contactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0832F7A-2A6A-4DB9-8C9E-D6A7A3DCBC32}|Smart.Business\\Smart.Business.csproj|solutionrelative:smart.business\\services\\internalservices\\abstractions\\contactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0832F7A-2A6A-4DB9-8C9E-D6A7A3DCBC32}|Smart.Business\\Smart.Business.csproj|c:\\users\\asime\\desktop\\smartgallery\\smartgallery\\smart.business\\validators\\uservalidators\\updateuserdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0832F7A-2A6A-4DB9-8C9E-D6A7A3DCBC32}|Smart.Business\\Smart.Business.csproj|solutionrelative:smart.business\\validators\\uservalidators\\updateuserdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F0832F7A-2A6A-4DB9-8C9E-D6A7A3DCBC32}|Smart.Business\\Smart.Business.csproj|c:\\users\\asime\\desktop\\smartgallery\\smartgallery\\smart.business\\services\\internalservices\\abstractions\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0832F7A-2A6A-4DB9-8C9E-D6A7A3DCBC32}|Smart.Business\\Smart.Business.csproj|solutionrelative:smart.business\\services\\internalservices\\abstractions\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0832F7A-2A6A-4DB9-8C9E-D6A7A3DCBC32}|Smart.Business\\Smart.Business.csproj|c:\\users\\asime\\desktop\\smartgallery\\smartgallery\\smart.business\\validators\\uservalidators\\loginuserdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0832F7A-2A6A-4DB9-8C9E-D6A7A3DCBC32}|Smart.Business\\Smart.Business.csproj|solutionrelative:smart.business\\validators\\uservalidators\\loginuserdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F0832F7A-2A6A-4DB9-8C9E-D6A7A3DCBC32}|Smart.Business\\Smart.Business.csproj|c:\\users\\asime\\desktop\\smartgallery\\smartgallery\\smart.business\\services\\internalservices\\abstractions\\colorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0832F7A-2A6A-4DB9-8C9E-D6A7A3DCBC32}|Smart.Business\\Smart.Business.csproj|solutionrelative:smart.business\\services\\internalservices\\abstractions\\colorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0832F7A-2A6A-4DB9-8C9E-D6A7A3DCBC32}|Smart.Business\\Smart.Business.csproj|c:\\users\\asime\\desktop\\smartgallery\\smartgallery\\smart.business\\services\\internalservices\\abstractions\\brandservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0832F7A-2A6A-4DB9-8C9E-D6A7A3DCBC32}|Smart.Business\\Smart.Business.csproj|solutionrelative:smart.business\\services\\internalservices\\abstractions\\brandservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -78,7 +78,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 1114,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 19,
           "Children": [
             {
               "$type": "Bookmark",
@@ -94,20 +94,43 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IBrandService.cs",
-              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\Smart.Business\\Services\\InternalServices\\Interfaces\\IBrandService.cs",
-              "RelativeDocumentMoniker": "Smart.Business\\Services\\InternalServices\\Interfaces\\IBrandService.cs",
-              "ToolTip": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\Smart.Business\\Services\\InternalServices\\Interfaces\\IBrandService.cs",
-              "RelativeToolTip": "Smart.Business\\Services\\InternalServices\\Interfaces\\IBrandService.cs",
+              "DocumentIndex": 1,
+              "Title": "LoginUserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\Smart.Business\\DTOs\\UserDTOs\\LoginUserDTO.cs",
+              "RelativeDocumentMoniker": "Smart.Business\\DTOs\\UserDTOs\\LoginUserDTO.cs",
+              "ToolTip": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\Smart.Business\\DTOs\\UserDTOs\\LoginUserDTO.cs",
+              "RelativeToolTip": "Smart.Business\\DTOs\\UserDTOs\\LoginUserDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T13:28:56.098Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T16:30:01.288Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ChangePasswordUserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\Smart.Business\\DTOs\\UserDTOs\\ChangePasswordUserDTO.cs",
+              "RelativeDocumentMoniker": "Smart.Business\\DTOs\\UserDTOs\\ChangePasswordUserDTO.cs",
+              "ToolTip": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\Smart.Business\\DTOs\\UserDTOs\\ChangePasswordUserDTO.cs",
+              "RelativeToolTip": "Smart.Business\\DTOs\\UserDTOs\\ChangePasswordUserDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T16:29:53.803Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "ClickToResetDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\Smart.Business\\DTOs\\UserDTOs\\ClickToResetDTO.cs",
+              "RelativeDocumentMoniker": "Smart.Business\\DTOs\\UserDTOs\\ClickToResetDTO.cs",
+              "ToolTip": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\Smart.Business\\DTOs\\UserDTOs\\ClickToResetDTO.cs",
+              "RelativeToolTip": "Smart.Business\\DTOs\\UserDTOs\\ClickToResetDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T16:29:52.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "ForgotPasswordDTO.cs",
               "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\Smart.Business\\DTOs\\UserDTOs\\ForgotPasswordDTO.cs",
               "RelativeDocumentMoniker": "Smart.Business\\DTOs\\UserDTOs\\ForgotPasswordDTO.cs",
@@ -115,34 +138,151 @@
               "RelativeToolTip": "Smart.Business\\DTOs\\UserDTOs\\ForgotPasswordDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T13:28:14.777Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T16:29:51.406Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
+              "Title": "UserTimer.cs",
+              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\Smart.Business\\DTOs\\UserDTOs\\UserTimer.cs",
+              "RelativeDocumentMoniker": "Smart.Business\\DTOs\\UserDTOs\\UserTimer.cs",
+              "ToolTip": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\Smart.Business\\DTOs\\UserDTOs\\UserTimer.cs",
+              "RelativeToolTip": "Smart.Business\\DTOs\\UserDTOs\\UserTimer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T16:29:49.42Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\Smart.Business\\DTOs\\UserDTOs\\UserDTO.cs",
+              "RelativeDocumentMoniker": "Smart.Business\\DTOs\\UserDTOs\\UserDTO.cs",
+              "ToolTip": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\Smart.Business\\DTOs\\UserDTOs\\UserDTO.cs",
+              "RelativeToolTip": "Smart.Business\\DTOs\\UserDTOs\\UserDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T16:29:46.754Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "LogoutDTO.cs",
               "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\Smart.Business\\DTOs\\UserDTOs\\LogoutDTO.cs",
               "RelativeDocumentMoniker": "Smart.Business\\DTOs\\UserDTOs\\LogoutDTO.cs",
               "ToolTip": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\Smart.Business\\DTOs\\UserDTOs\\LogoutDTO.cs",
               "RelativeToolTip": "Smart.Business\\DTOs\\UserDTOs\\LogoutDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T13:27:30.466Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T16:29:40.782Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "APIDependecyInjection.cs",
-              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\SmartGallery\\APIDependecyInjection.cs",
-              "RelativeDocumentMoniker": "SmartGallery\\APIDependecyInjection.cs",
-              "ToolTip": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\SmartGallery\\APIDependecyInjection.cs",
-              "RelativeToolTip": "SmartGallery\\APIDependecyInjection.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAqAAAA",
+              "DocumentIndex": 8,
+              "Title": "SubscriptionService.cs",
+              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\Smart.Business\\Services\\InternalServices\\Abstractions\\SubscriptionService.cs",
+              "RelativeDocumentMoniker": "Smart.Business\\Services\\InternalServices\\Abstractions\\SubscriptionService.cs",
+              "ToolTip": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\Smart.Business\\Services\\InternalServices\\Abstractions\\SubscriptionService.cs",
+              "RelativeToolTip": "Smart.Business\\Services\\InternalServices\\Abstractions\\SubscriptionService.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T13:23:19.085Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T16:27:02.679Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SpecificationService.cs",
+              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\Smart.Business\\Services\\InternalServices\\Abstractions\\SpecificationService.cs",
+              "RelativeDocumentMoniker": "Smart.Business\\Services\\InternalServices\\Abstractions\\SpecificationService.cs",
+              "ToolTip": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\Smart.Business\\Services\\InternalServices\\Abstractions\\SpecificationService.cs",
+              "RelativeToolTip": "Smart.Business\\Services\\InternalServices\\Abstractions\\SpecificationService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T16:26:59.696Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ServiceService.cs",
+              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\Smart.Business\\Services\\InternalServices\\Abstractions\\ServiceService.cs",
+              "RelativeDocumentMoniker": "Smart.Business\\Services\\InternalServices\\Abstractions\\ServiceService.cs",
+              "ToolTip": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\Smart.Business\\Services\\InternalServices\\Abstractions\\ServiceService.cs",
+              "RelativeToolTip": "Smart.Business\\Services\\InternalServices\\Abstractions\\ServiceService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAByAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T16:26:49.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SettingService.cs",
+              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\Smart.Business\\Services\\InternalServices\\Abstractions\\SettingService.cs",
+              "RelativeDocumentMoniker": "Smart.Business\\Services\\InternalServices\\Abstractions\\SettingService.cs",
+              "ToolTip": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\Smart.Business\\Services\\InternalServices\\Abstractions\\SettingService.cs",
+              "RelativeToolTip": "Smart.Business\\Services\\InternalServices\\Abstractions\\SettingService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAByAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T16:26:42.12Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\Smart.Business\\Services\\InternalServices\\Abstractions\\ProductService.cs",
+              "RelativeDocumentMoniker": "Smart.Business\\Services\\InternalServices\\Abstractions\\ProductService.cs",
+              "ToolTip": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\Smart.Business\\Services\\InternalServices\\Abstractions\\ProductService.cs",
+              "RelativeToolTip": "Smart.Business\\Services\\InternalServices\\Abstractions\\ProductService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T16:26:39.781Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ContactService.cs",
+              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\Smart.Business\\Services\\InternalServices\\Abstractions\\ContactService.cs",
+              "RelativeDocumentMoniker": "Smart.Business\\Services\\InternalServices\\Abstractions\\ContactService.cs",
+              "ToolTip": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\Smart.Business\\Services\\InternalServices\\Abstractions\\ContactService.cs",
+              "RelativeToolTip": "Smart.Business\\Services\\InternalServices\\Abstractions\\ContactService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T16:26:32.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\Smart.Business\\Services\\InternalServices\\Abstractions\\CategoryService.cs",
+              "RelativeDocumentMoniker": "Smart.Business\\Services\\InternalServices\\Abstractions\\CategoryService.cs",
+              "ToolTip": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\Smart.Business\\Services\\InternalServices\\Abstractions\\CategoryService.cs",
+              "RelativeToolTip": "Smart.Business\\Services\\InternalServices\\Abstractions\\CategoryService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAB3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T16:26:21.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ColorService.cs",
+              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\Smart.Business\\Services\\InternalServices\\Abstractions\\ColorService.cs",
+              "RelativeDocumentMoniker": "Smart.Business\\Services\\InternalServices\\Abstractions\\ColorService.cs",
+              "ToolTip": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\Smart.Business\\Services\\InternalServices\\Abstractions\\ColorService.cs",
+              "RelativeToolTip": "Smart.Business\\Services\\InternalServices\\Abstractions\\ColorService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T16:26:11.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "BrandService.cs",
+              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\Smart.Business\\Services\\InternalServices\\Abstractions\\BrandService.cs",
+              "RelativeDocumentMoniker": "Smart.Business\\Services\\InternalServices\\Abstractions\\BrandService.cs",
+              "ToolTip": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\Smart.Business\\Services\\InternalServices\\Abstractions\\BrandService.cs",
+              "RelativeToolTip": "Smart.Business\\Services\\InternalServices\\Abstractions\\BrandService.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABUAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T16:25:54.36Z"
             },
             {
               "$type": "Document",
@@ -152,165 +292,9 @@
               "RelativeDocumentMoniker": "Smart.Business\\Services\\InternalServices\\Abstractions\\AccountService.cs",
               "ToolTip": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\Smart.Business\\Services\\InternalServices\\Abstractions\\AccountService.cs",
               "RelativeToolTip": "Smart.Business\\Services\\InternalServices\\Abstractions\\AccountService.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAowBQAAAAxAAAA",
+              "ViewState": "AQIAADkAAAAAAAAAAAAcwF0AAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-11T13:18:31.554Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IAccountService.cs",
-              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\Smart.Business\\Services\\InternalServices\\Interfaces\\IAccountService.cs",
-              "RelativeDocumentMoniker": "Smart.Business\\Services\\InternalServices\\Interfaces\\IAccountService.cs",
-              "ToolTip": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\Smart.Business\\Services\\InternalServices\\Interfaces\\IAccountService.cs",
-              "RelativeToolTip": "Smart.Business\\Services\\InternalServices\\Interfaces\\IAccountService.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAxwBgAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T13:18:16.527Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "UserTimer.cs",
-              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\Smart.Business\\DTOs\\UserDTOs\\UserTimer.cs",
-              "RelativeDocumentMoniker": "Smart.Business\\DTOs\\UserDTOs\\UserTimer.cs",
-              "ToolTip": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\Smart.Business\\DTOs\\UserDTOs\\UserTimer.cs",
-              "RelativeToolTip": "Smart.Business\\DTOs\\UserDTOs\\UserTimer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T13:09:14.577Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "UserStatusDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\Smart.Business\\DTOs\\UserDTOs\\UserStatusDTO.cs",
-              "RelativeDocumentMoniker": "Smart.Business\\DTOs\\UserDTOs\\UserStatusDTO.cs",
-              "ToolTip": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\Smart.Business\\DTOs\\UserDTOs\\UserStatusDTO.cs",
-              "RelativeToolTip": "Smart.Business\\DTOs\\UserDTOs\\UserStatusDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T13:08:29.881Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ResetPasswordUserDTOValidator.cs",
-              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\Smart.Business\\Validators\\UserValidators\\ResetPasswordUserDTOValidator.cs",
-              "RelativeDocumentMoniker": "Smart.Business\\Validators\\UserValidators\\ResetPasswordUserDTOValidator.cs",
-              "ToolTip": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\Smart.Business\\Validators\\UserValidators\\ResetPasswordUserDTOValidator.cs",
-              "RelativeToolTip": "Smart.Business\\Validators\\UserValidators\\ResetPasswordUserDTOValidator.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T13:05:57.064Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ResetPasswordUserDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\Smart.Business\\DTOs\\UserDTOs\\ResetPasswordUserDTO.cs",
-              "RelativeDocumentMoniker": "Smart.Business\\DTOs\\UserDTOs\\ResetPasswordUserDTO.cs",
-              "ToolTip": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\Smart.Business\\DTOs\\UserDTOs\\ResetPasswordUserDTO.cs",
-              "RelativeToolTip": "Smart.Business\\DTOs\\UserDTOs\\ResetPasswordUserDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T13:04:25.525Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ChangePasswordUserDTOValidator.cs",
-              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\Smart.Business\\Validators\\UserValidators\\ChangePasswordUserDTOValidator.cs",
-              "RelativeDocumentMoniker": "Smart.Business\\Validators\\UserValidators\\ChangePasswordUserDTOValidator.cs",
-              "ToolTip": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\Smart.Business\\Validators\\UserValidators\\ChangePasswordUserDTOValidator.cs",
-              "RelativeToolTip": "Smart.Business\\Validators\\UserValidators\\ChangePasswordUserDTOValidator.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T13:00:13.389Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ClickToResetDTOValidator.cs",
-              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\Smart.Business\\Validators\\UserValidators\\ClickToResetDTOValidator.cs",
-              "RelativeDocumentMoniker": "Smart.Business\\Validators\\UserValidators\\ClickToResetDTOValidator.cs",
-              "ToolTip": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\Smart.Business\\Validators\\UserValidators\\ClickToResetDTOValidator.cs",
-              "RelativeToolTip": "Smart.Business\\Validators\\UserValidators\\ClickToResetDTOValidator.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T12:58:58.276Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "BusinessDependencyInjection.cs",
-              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\Smart.Business\\BusinessDependencyInjection.cs",
-              "RelativeDocumentMoniker": "Smart.Business\\BusinessDependencyInjection.cs",
-              "ToolTip": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\Smart.Business\\BusinessDependencyInjection.cs",
-              "RelativeToolTip": "Smart.Business\\BusinessDependencyInjection.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T12:57:24.583Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ForgotPasswordDTOValidator.cs",
-              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\Smart.Business\\Validators\\UserValidators\\ForgotPasswordDTOValidator.cs",
-              "RelativeDocumentMoniker": "Smart.Business\\Validators\\UserValidators\\ForgotPasswordDTOValidator.cs",
-              "ToolTip": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\Smart.Business\\Validators\\UserValidators\\ForgotPasswordDTOValidator.cs",
-              "RelativeToolTip": "Smart.Business\\Validators\\UserValidators\\ForgotPasswordDTOValidator.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T12:56:14.553Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "LoginUserDTOValidator.cs",
-              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\Smart.Business\\Validators\\UserValidators\\LoginUserDTOValidator.cs",
-              "RelativeDocumentMoniker": "Smart.Business\\Validators\\UserValidators\\LoginUserDTOValidator.cs",
-              "ToolTip": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\Smart.Business\\Validators\\UserValidators\\LoginUserDTOValidator.cs",
-              "RelativeToolTip": "Smart.Business\\Validators\\UserValidators\\LoginUserDTOValidator.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T12:54:30.958Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "UpdateUserDTOValidator.cs",
-              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\Smart.Business\\Validators\\UserValidators\\UpdateUserDTOValidator.cs",
-              "RelativeDocumentMoniker": "Smart.Business\\Validators\\UserValidators\\UpdateUserDTOValidator.cs",
-              "ToolTip": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\Smart.Business\\Validators\\UserValidators\\UpdateUserDTOValidator.cs",
-              "RelativeToolTip": "Smart.Business\\Validators\\UserValidators\\UpdateUserDTOValidator.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAA3AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T12:53:53.115Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "RegisterUserDTOValidator.cs",
-              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\Smart.Business\\Validators\\UserValidators\\RegisterUserDTOValidator.cs",
-              "RelativeDocumentMoniker": "Smart.Business\\Validators\\UserValidators\\RegisterUserDTOValidator.cs",
-              "ToolTip": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\Smart.Business\\Validators\\UserValidators\\RegisterUserDTOValidator.cs",
-              "RelativeToolTip": "Smart.Business\\Validators\\UserValidators\\RegisterUserDTOValidator.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAAwCYAAAB3AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T12:46:36.022Z",
               "EditorCaption": ""
             }
           ]
