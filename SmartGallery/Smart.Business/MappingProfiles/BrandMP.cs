@@ -1,4 +1,5 @@
-﻿using AutoMapper;
+﻿using App.Business.MappingProfiles.Commons;
+using AutoMapper;
 using Smart.Business.DTOs.BrandDTOs;
 using Smart.Core.Entities;
 using System;
@@ -14,10 +15,16 @@ namespace Smart.Business.MappingProfiles
         public BrandMP()
         {
             //Create section
-            CreateMap<CreateBrandDTO, Brand>().ReverseMap();
+            CreateMap<CreateBrandDTO, Brand>()
+                .ForMember(dest => dest.ImageUrl, opt => opt.Ignore())
+                .AfterMap<CustomMappingAction<CreateBrandDTO, Brand>>()
+                .ReverseMap();
 
             //Update section
-            CreateMap<UpdateBrandDTO, Brand>().ReverseMap();
+            CreateMap<UpdateBrandDTO, Brand>()
+                .ForMember(dest => dest.ImageUrl, opt => opt.Ignore())
+                .AfterMap<CustomMappingAction<UpdateBrandDTO, Brand>>()
+                .ReverseMap();
         }
     }
 }

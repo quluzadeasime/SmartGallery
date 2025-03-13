@@ -1,5 +1,5 @@
 ﻿using Newtonsoft.Json;
-using Smart.Core.Exceptions;
+using Smart.Core.Exceptions.Commons;
 
 namespace Smart.API.Middlewares
 {

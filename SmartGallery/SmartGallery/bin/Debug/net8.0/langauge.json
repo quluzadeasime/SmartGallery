@@ -1,0 +1,9 @@
+{
+  "AccountErrorMessages": {
+    "UsernameOrEmailAddressNotFound": "Username/Email address is not found, please try again.",
+    "UserTokenExpired": "User's token has been expired, please try again later.'",
+    "UserLockOut": "User has been locked by server, please try again later.",
+    "ConfirmationNumberIsNotValid": "Confirmation number is not valid.",
+    "EmailIsNotConfirmed": "Email is not confirmed."
+  }
+}

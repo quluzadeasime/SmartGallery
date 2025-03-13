@@ -1,5 +1,6 @@
 ﻿using Smart.Core.Entities.Commons;
 using Smart.Core.Exceptions;
+using Smart.Core.Exceptions.Commons;
 using Smart.DAL.Handlers.Interfaces;
 using System;
 using System.Collections.Generic;

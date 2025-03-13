@@ -1,4 +1,5 @@
 ﻿using Smart.Core.Entities.Commons;
+using Smart.Core.Entities.Identity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,11 +10,13 @@ namespace Smart.Core.Entities
 {
     public class Product : BaseEntity, IAuditedEntity
     {
+        public User User { get; set; }
         public string Name { get; set; }
         public int BrandId { get; set; }
         public Brand Brand { get; set; }
         public float Rating { get; set; }
         public decimal Price { get; set; }
+        public string UserId { get; set; }
         public int? Discount { get; set; }
         public int CategoryId { get; set; }
         public int RatingCount { get; set; }

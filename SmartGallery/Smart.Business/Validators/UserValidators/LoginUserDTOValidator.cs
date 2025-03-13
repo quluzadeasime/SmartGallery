@@ -13,7 +13,7 @@ namespace Smart.Business.Validators.UserValidators
     {
         public LoginUserDTOValidator()
         {
-            RuleFor(x => x.Email)
+            RuleFor(x => x.UsernameOrEmail)
                .NotEmpty()
                .WithMessage("Please enter email address.");
 

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Smart.Business.DTOs.Commons
 {
-    public class IAuditedentityDTO
+    public interface IAuditedentityDTO
     {
         public IFormFile Image { get; set; }
     }

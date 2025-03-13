@@ -12,7 +12,7 @@ namespace Smart.Business.Validators.BrandValidators
     {
         public CreateBrandDTOValidator()
         {
-            RuleFor(x => x.ImageUrl)
+            RuleFor(x => x.Image)
                 .NotEmpty()
                 .WithMessage("Logo is required!");
         }

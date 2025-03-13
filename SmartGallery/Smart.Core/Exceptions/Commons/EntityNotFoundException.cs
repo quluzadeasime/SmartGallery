@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Smart.Core.Exceptions
+namespace Smart.Core.Exceptions.Commons
 {
     public class EntityNotFoundException : Exception
     {

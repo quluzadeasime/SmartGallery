@@ -8,9 +8,9 @@ using System.Threading.Tasks;
 
 namespace Smart.Business.Validators.UserValidators
 {
-    public class ClickToResetDTOValidator : AbstractValidator<ClickToResetDTO>
+    public class ClickToResendDTOValidator : AbstractValidator<ClickToResendDTO>
     {
-        public ClickToResetDTOValidator()
+        public ClickToResendDTOValidator()
         {
             RuleFor(vm => vm.Email)
                .NotEmpty()

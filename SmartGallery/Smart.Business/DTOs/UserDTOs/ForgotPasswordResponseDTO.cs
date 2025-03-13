@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Smart.Business.DTOs.UserDTOs
 {
-    public class ClickToResetDTO
+    public class ForgotPasswordResponseDTO
     {
         public string Email { get; set; }
     }

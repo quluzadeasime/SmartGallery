@@ -9,7 +9,11 @@ namespace Smart.Core.Entities.Identity
 {
     public class User : IdentityUser 
     {
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
+        public bool IsResent { get; set; }
+        public string? LastName { get; set; }
+        public string? FirstName { get; set; }
+        public int? ConfirmationCode { get; set; }
+        public ICollection<Product> Products { get; set; }
+        public DateTime? ConfirmationCodeSentAt { get; set; }
     }
 }

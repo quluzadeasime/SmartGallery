@@ -13,24 +13,17 @@ namespace Smart.Business.Services.InternalServices.Interfaces
     {
         //Register methods
         Task<RegisterUserResponseDTO> RegisterAsync(RegisterUserDTO dto);
-        Task ClickToResendAsync(ClickToResetDTO dto);
+        Task<ConfirmEmailResponseDTO> PasswordConfirmationAsync(ConfirmEmailDTO dto);
+        Task EmailConfirmationAsync(ConfirmEmailDTO dto);
+        Task ClickToResendAsync(ClickToResendDTO dto);
 
         //Login methods
-        Task CheckUserPasswordAsync(User user, string password);
         Task<LoginResponseDTO> LoginAsync(LoginUserDTO dto);
         Task ResetPasswordAsync(ResetPasswordUserDTO dto);
-        Task ForgotPasswordAsync(ForgotPasswordDTO dto);
-        Task LogoutAsync(LogoutDTO dto);
+        Task<ForgotPasswordResponseDTO> ForgotPasswordAsync(ForgotPasswordDTO dto);
 
         // Account Methods
         Task<ChangePasswordResponseDTO> ChangePasswordAsync(ChangePasswordUserDTO dto, string userId);
-        Task<UpdateUserResponseDTO> Update(UpdateUserDTO dto, string userId);
-
-        Task<User> CheckNotFoundForLoginByUsernameOrEmailAsync(string userNameOrEmail);
-        Task<bool> CheckUserStatus(string userNameOrEmail);
-        Task<User> CheckNotFoundByIdAsync(string userId);
-        void CheckIdentityResult(IdentityResult result);
-        Task<string> GetUserRoleAsync(User user);
-        Task ChangeUserStatus(string userId);
+        Task<UpdateUserResponseDTO> UpdateAsync(UpdateUserDTO dto, string userId);
     }
 }

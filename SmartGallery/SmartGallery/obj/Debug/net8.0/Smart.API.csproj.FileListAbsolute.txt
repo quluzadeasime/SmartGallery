@@ -420,3 +420,4 @@ C:\Users\ilkin\OneDrive\Desktop\SmartGallery\SmartGallery\SmartGallery\obj\Debug
 C:\Users\ilkin\OneDrive\Desktop\SmartGallery\SmartGallery\SmartGallery\obj\Debug\net8.0\Smart.API.pdb
 C:\Users\ilkin\OneDrive\Desktop\SmartGallery\SmartGallery\SmartGallery\obj\Debug\net8.0\Smart.API.genruntimeconfig.cache
 C:\Users\ilkin\OneDrive\Desktop\SmartGallery\SmartGallery\SmartGallery\obj\Debug\net8.0\ref\Smart.API.dll
+C:\Users\Asime\Desktop\SmartGallery\SmartGallery\SmartGallery\bin\Debug\net8.0\langauge.json
