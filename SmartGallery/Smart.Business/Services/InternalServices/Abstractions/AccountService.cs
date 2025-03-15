@@ -60,7 +60,7 @@ namespace Smart.Business.Services.InternalServices.Abstractions
             newUser.ConfirmationCodeSentAt = DateTime.UtcNow;
 
             CheckIdentityResult(await _userManager.CreateAsync(newUser, dto.Password));
-            CheckIdentityResult(await _userManager.AddToRoleAsync(newUser, "Student"));
+            CheckIdentityResult(await _userManager.AddToRoleAsync(newUser, "Member"));
 
             await _emailService.SendMailMessageAsync(newUser.Email, newUser, newUser.ConfirmationCode.Value, string.Empty);
 
@@ -156,6 +156,15 @@ namespace Smart.Business.Services.InternalServices.Abstractions
         public async Task EmailConfirmationAsync(ConfirmEmailDTO dto)
         {
             var oldUser = await _userManager.FindByEmailAsync(dto.Email);
+
+            if (oldUser == null)
+                throw new Exception("User not found with this email.");
+
+            if (oldUser.ConfirmationCode == null)
+                throw new Exception("No confirmation code found for this user.");
+
+            Console.WriteLine($"DB Confirmation Code: {oldUser.ConfirmationCode}, Input Code: {dto.Number}");
+
             CheckConfirmationNumber(oldUser.ConfirmationCode, dto.Number);
 
             oldUser.EmailConfirmed = true;
@@ -165,6 +174,7 @@ namespace Smart.Business.Services.InternalServices.Abstractions
 
             CheckIdentityResult(await _userManager.UpdateAsync(oldUser));
         }
+
 
         public async Task<ConfirmEmailResponseDTO> PasswordConfirmationAsync(ConfirmEmailDTO dto)
         {
@@ -207,9 +217,16 @@ namespace Smart.Business.Services.InternalServices.Abstractions
 
         private void CheckConfirmationNumber(int? userConfirmationNumber, int number)
         {
+            Console.WriteLine($"Checking: DB Code = {userConfirmationNumber}, Input Code = {number}");
+
+            if (userConfirmationNumber == null)
+                throw new Exception("Confirmation code is missing or expired.");
+
             if (userConfirmationNumber != number)
                 throw new ConfirmationNumberIsNotValidException(_errorMessages.ConfirmationNumberIsNotValid);
         }
+
+
 
         private void CheckConfirmationCodeSendAt(User oldUser)
         {

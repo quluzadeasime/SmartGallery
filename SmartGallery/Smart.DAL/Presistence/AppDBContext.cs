@@ -45,15 +45,15 @@ namespace App.DAL.Presistence
                 switch (entry.State)
                 {
                     case EntityState.Added:
-                        entry.Entity.CreatedBy = _claimService.GetUserId() ?? "ByServer";
+                        entry.Entity.CreatedBy = _claimService.GetUserId();
                         entry.Entity.CreatedOn = DateTime.UtcNow;
 
-                        entry.Entity.UpdatedBy = _claimService.GetUserId() ?? "ByServer";
+                        entry.Entity.UpdatedBy = _claimService.GetUserId();
                         entry.Entity.UpdatedOn = DateTime.UtcNow;
                         break;
 
                     case EntityState.Modified:
-                        entry.Entity.UpdatedBy = _claimService.GetUserId() ?? "ByServer";
+                        entry.Entity.UpdatedBy = _claimService.GetUserId();
                         entry.Entity.UpdatedOn = DateTime.UtcNow;
                         break;
                 }

@@ -33,7 +33,7 @@ namespace Smart.Business.Services.ExternalServices.Abstractions
 
                 var mailMessage = new MailMessage
                 {
-                    From = new MailAddress("no-reply@apptech.edu.az"),
+                    From = new MailAddress("sendm554@gmail.com"),
                     Subject = "Welcome to Smart Gallery",
                     Body = $@"<!DOCTYPE html>
                     <html>

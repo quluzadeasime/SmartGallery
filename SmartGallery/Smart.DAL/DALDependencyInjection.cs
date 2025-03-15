@@ -43,7 +43,8 @@ namespace Smart.DAL
         private static void AddIdentity(this IServiceCollection services)
         {
             services.AddIdentity<User, IdentityRole>(options => options.SignIn.RequireConfirmedAccount = true)
-                .AddEntityFrameworkStores<AppDbContext>();
+                .AddEntityFrameworkStores<AppDbContext>()
+                .AddDefaultTokenProviders();  
 
             services.Configure<IdentityOptions>(options =>
             {
@@ -63,6 +64,7 @@ namespace Smart.DAL
                 options.User.RequireUniqueEmail = true;
             });
         }
+
 
         private static void AddRepositories(this IServiceCollection services)
         {

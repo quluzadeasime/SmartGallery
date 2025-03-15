@@ -19,9 +19,9 @@ namespace Smart.Business.Validators.UserValidators
                .WithMessage("Last name cannot exceed 50 characters.");
 
             RuleFor(vm => vm.Email)
+                .EmailAddress()
                 .NotEmpty()
                 .WithMessage("Email address is required.")
-                .EmailAddress()
                 .WithMessage("Invalid email address.");
 
             RuleFor(x => x.Phone)
