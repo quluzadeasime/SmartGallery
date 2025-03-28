@@ -23,7 +23,7 @@ namespace Smart.Business.Helpers
                 Subject = new ClaimsIdentity(new Claim[]
                 {
                     new Claim("id", user.Id.ToString()),
-                    new Claim("role", userRole),
+                    new Claim("role", userRole)
                 }),
                 Expires = DateTime.UtcNow.AddDays(30),
                 Issuer = configuration["JwtConfiguration:Issuer"],

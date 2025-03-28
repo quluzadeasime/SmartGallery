@@ -14,10 +14,10 @@ namespace Smart.Business.MappingProfiles
     {
         public ProductMP()
         {
-            // Create section: CreateProductDTO -> Product
+            // Create section
             CreateMap<CreateProductDTO, Product>().ReverseMap();
 
-            // Update section: CreateProductDTO -> Product (Aynı şəkildə təkrarlamaq lazım ola bilər)
+            // Update section
             CreateMap<CreateProductDTO, Product>().ReverseMap();
         }
     }

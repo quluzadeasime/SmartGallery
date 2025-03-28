@@ -9,5 +9,6 @@ namespace Smart.Business.DTOs.UserDTOs
     public class ForgotPasswordResponseDTO
     {
         public string Email { get; set; }
+        public string Token { get; set; }
     }
 }

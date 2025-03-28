@@ -1,6 +1,8 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Http;
 using Smart.Business.DTOs.BrandDTOs;
 using Smart.Business.DTOs.CategoryDTOs;
+using Smart.Business.Services.ExternalServices.Interfaces;
 using Smart.Business.Services.InternalServices.Interfaces;
 using Smart.Core.Entities;
 using Smart.DAL.Handlers.Interfaces;
@@ -15,20 +17,29 @@ namespace Smart.Business.Services.InternalServices.Abstractions
 {
     public class BrandService : IBrandService
     {
+        private readonly IFileManagerService _fileManagerService;
         private readonly IBrandRepository _brandRepository;
         private readonly IBrandHandler _brandHandler;
         private readonly IMapper _mapper;
 
-        public BrandService(IBrandRepository brandRepository, IMapper mapper, IBrandHandler brandHandler)
+        public BrandService(IBrandRepository brandRepository, IMapper mapper, IBrandHandler brandHandler, IFileManagerService fileManagerService = null)
         {
+            _fileManagerService = fileManagerService;
             _brandRepository = brandRepository;
-            _mapper = mapper;
             _brandHandler = brandHandler;
+            _mapper = mapper;
         }
 
         public async Task<BrandDTO> CreateAsync(CreateBrandDTO dto)
         {
-            var result = await _brandRepository.AddAsync(_mapper.Map<Brand>(dto));
+            var entity = _mapper.Map<Brand>(dto);
+
+            if (dto.Image != null)
+            {
+                entity.ImageUrl = await _fileManagerService.UploadFileAsync(dto.Image);
+            }
+
+            var result = await _brandRepository.AddAsync(entity);
 
             return new BrandDTO
             {
@@ -36,6 +47,7 @@ namespace Smart.Business.Services.InternalServices.Abstractions
                 ImageUrl = result.ImageUrl
             };
         }
+
 
         public async Task<BrandDTO> DeleteAsync(DeleteBrandDTO dto)
         {
@@ -74,11 +86,20 @@ namespace Smart.Business.Services.InternalServices.Abstractions
 
         public async Task<BrandDTO> UpdateAsync(UpdateBrandDTO dto)
         {
-            var oldEntity = _brandHandler.HandleEntityAsync(
-                await _brandRepository.GetByIdAsync(x => x.Id == dto.Id));
+            var oldEntity = await _brandRepository.GetByIdAsync(x => x.Id == dto.Id);
+            if (oldEntity == null)
+            {
+                throw new Exception("Brand not found.");
+            }
 
-            var result = await _brandRepository.UpdateAsync(
-                _mapper.Map(dto, oldEntity));
+            if (dto.Image != null)
+            {
+                oldEntity.ImageUrl = await _fileManagerService.UploadFileAsync(dto.Image); 
+            }
+
+            _mapper.Map(dto, oldEntity); 
+
+            var result = await _brandRepository.UpdateAsync(oldEntity);
 
             return new BrandDTO
             {
@@ -86,5 +107,6 @@ namespace Smart.Business.Services.InternalServices.Abstractions
                 ImageUrl = result.ImageUrl
             };
         }
+
     }
 }

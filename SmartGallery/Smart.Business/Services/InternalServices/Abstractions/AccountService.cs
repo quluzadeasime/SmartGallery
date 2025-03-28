@@ -82,20 +82,6 @@ namespace Smart.Business.Services.InternalServices.Abstractions
             };
         }
 
-        public async Task<LoginResponseDTO> LoginAsync(LoginUserDTO dto)
-        {
-            var user = await CheckNotFoundForLoginByUsernameOrEmailAsync(dto.UsernameOrEmail);
-            var userRole = await GetUserRoleAsync(user);
-
-            await CheckUserPasswordAsync(user, dto.Password);
-
-            var token = JWTGenerator.GenerateToken(user, userRole, _configuration);
-
-            return new LoginResponseDTO
-            {
-                Token = token,
-            };
-        }
 
         public async Task<ChangePasswordResponseDTO> ChangePasswordAsync(ChangePasswordUserDTO dto, string userId)
         {
@@ -112,30 +98,64 @@ namespace Smart.Business.Services.InternalServices.Abstractions
             };
         }
 
+        public async Task<LoginResponseDTO> LoginAsync(LoginUserDTO dto)
+        {
+            var user = await CheckNotFoundForLoginByUsernameOrEmailAsync(dto.UsernameOrEmail);
+            var userRole = await GetUserRoleAsync(user);
+
+            await CheckUserPasswordAsync(user, dto.Password);
+
+            var token = JWTGenerator.GenerateToken(user, userRole, _configuration);
+
+            return new LoginResponseDTO
+            {
+                Token = token,
+            };
+        }
+
         public async Task ResetPasswordAsync(ResetPasswordUserDTO dto)
         {
             var oldUser = await _userManager.FindByEmailAsync(dto.Email);
 
+            if (oldUser == null || oldUser.PasswordResetToken != dto.Token)
+            {
+                throw new Exception("Invalid or expired token.");
+            }
+
             CheckIdentityResult(await _userManager.ResetPasswordAsync(oldUser, dto.Token, dto.NewPassword));
+
+            oldUser.PasswordResetToken = dto.Token;
+            //oldUser.PasswordResetTokenExpiry = null;
+            await _userManager.UpdateAsync(oldUser);
         }
+
+
 
         public async Task<ForgotPasswordResponseDTO> ForgotPasswordAsync(ForgotPasswordDTO dto)
         {
             var oldUser = await CheckNotFoundForForgotPasswordByEmailAsync(dto.Email);
-            var number = GenerateConfirmationNumber();
+            var userRole = await GetUserRoleAsync(oldUser);
 
-            oldUser.ConfirmationCode = number;
-            oldUser.ConfirmationCodeSentAt = DateTime.UtcNow;
+            var resetToken = JWTGenerator.GenerateToken(oldUser, userRole, _configuration);
 
-            CheckIdentityResult(await _userManager.UpdateAsync(oldUser));
+            oldUser.PasswordResetToken = resetToken;
+            oldUser.PasswordResetTokenExpiry = DateTime.UtcNow.AddMinutes(15); 
 
-            await _emailService.SendMailMessageAsync(oldUser.Email, oldUser, oldUser.ConfirmationCode.Value, string.Empty);
+            var updateResult = await _userManager.UpdateAsync(oldUser);
+            if (!updateResult.Succeeded)
+            {
+                throw new Exception("Error updating user with reset token.");
+            }
+
+            await _emailService.SendTokenMailMessageAsync(oldUser.Email, oldUser, resetToken);
 
             return new ForgotPasswordResponseDTO
             {
-                Email = oldUser.Email
+                Email = oldUser.Email,
+                Token = resetToken
             };
         }
+
 
         public async Task ClickToResendAsync(ClickToResendDTO dto)
         {

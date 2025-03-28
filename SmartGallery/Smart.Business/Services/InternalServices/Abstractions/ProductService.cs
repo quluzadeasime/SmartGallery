@@ -84,7 +84,6 @@ namespace Smart.Business.Services.InternalServices.Abstractions
 
         }
 
-
         public async Task<ProductDTO> DeleteAsync(DeleteProductDTO dto)
         {
             var product = await _productRepository.GetByIdAsync(x => x.Id == dto.Id);

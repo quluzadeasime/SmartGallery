@@ -10,5 +10,7 @@ namespace Smart.Business.Services.ExternalServices.Interfaces
     public interface IEmailService
     {
         Task SendMailMessageAsync(string toUserEmailAddress, User toUser, int confirmationNumber, string token);
+        Task SendTokenMailMessageAsync(string toUserEmailAddress, User toUser, string token);
+
     }
 }

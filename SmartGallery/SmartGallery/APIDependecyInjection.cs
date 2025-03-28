@@ -7,13 +7,13 @@ using System.Text;
 
 namespace Smart.API
 {
-    public static class APIDependecyInjection 
+    public static class APIDependecyInjection
     {
         public static void AddJwt(this IServiceCollection services, IConfiguration configuration)
         {
             var secretKey = configuration.GetValue<string>("JwtConfiguration:SecretKey");
-            var issuer = configuration.GetValue<string>("JwtConfiguration:Issuer");
             var audience = configuration.GetValue<string>("JwtConfiguration:Audience");
+            var issuer = configuration.GetValue<string>("JwtConfiguration:Issuer");
 
             var key = Encoding.ASCII.GetBytes(secretKey);
 
