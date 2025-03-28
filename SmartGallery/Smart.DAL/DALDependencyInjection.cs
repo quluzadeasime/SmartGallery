@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Options;
 using Smart.Core.Entities.Identity;
 using Smart.DAL.Handlers.Implementations;
 using Smart.DAL.Handlers.Interfaces;
@@ -36,7 +37,10 @@ namespace Smart.DAL
 
             services.AddDbContext<AppDbContext>(opt =>
             {
-                opt.UseSqlServer(connectionString);
+                //opt.UseSqlServer(connectionString);
+
+                opt.UseMySql(connectionString, new MySqlServerVersion(new Version(8, 0, 21)), mySqlOptions =>
+                    mySqlOptions.EnableStringComparisonTranslations());
             });
         }
 

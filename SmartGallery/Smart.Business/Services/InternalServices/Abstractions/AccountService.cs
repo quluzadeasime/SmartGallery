@@ -117,19 +117,15 @@ namespace Smart.Business.Services.InternalServices.Abstractions
         {
             var oldUser = await _userManager.FindByEmailAsync(dto.Email);
 
-            if (oldUser == null || oldUser.PasswordResetToken != dto.Token)
+            if (oldUser == null)
             {
-                throw new Exception("Invalid or expired token.");
+                throw new Exception("User email address is not valid.");
             }
 
             CheckIdentityResult(await _userManager.ResetPasswordAsync(oldUser, dto.Token, dto.NewPassword));
 
-            oldUser.PasswordResetToken = dto.Token;
-            //oldUser.PasswordResetTokenExpiry = null;
             await _userManager.UpdateAsync(oldUser);
         }
-
-
 
         public async Task<ForgotPasswordResponseDTO> ForgotPasswordAsync(ForgotPasswordDTO dto)
         {
@@ -138,21 +134,19 @@ namespace Smart.Business.Services.InternalServices.Abstractions
 
             var resetToken = JWTGenerator.GenerateToken(oldUser, userRole, _configuration);
 
-            oldUser.PasswordResetToken = resetToken;
-            oldUser.PasswordResetTokenExpiry = DateTime.UtcNow.AddMinutes(15); 
+            var number = GenerateConfirmationNumber();
 
-            var updateResult = await _userManager.UpdateAsync(oldUser);
-            if (!updateResult.Succeeded)
-            {
-                throw new Exception("Error updating user with reset token.");
-            }
+            oldUser.ConfirmationCode = number;
+            oldUser.ConfirmationCodeSentAt = DateTime.UtcNow;
 
-            await _emailService.SendTokenMailMessageAsync(oldUser.Email, oldUser, resetToken);
+            CheckIdentityResult(await _userManager.UpdateAsync(oldUser));
+
+            await _emailService.SendMailMessageAsync(oldUser.Email, oldUser, oldUser.ConfirmationCode.Value, string.Empty);
 
             return new ForgotPasswordResponseDTO
             {
                 Email = oldUser.Email,
-                Token = resetToken
+                Number = number,
             };
         }
 
@@ -182,8 +176,6 @@ namespace Smart.Business.Services.InternalServices.Abstractions
 
             if (oldUser.ConfirmationCode == null)
                 throw new Exception("No confirmation code found for this user.");
-
-            Console.WriteLine($"DB Confirmation Code: {oldUser.ConfirmationCode}, Input Code: {dto.Number}");
 
             CheckConfirmationNumber(oldUser.ConfirmationCode, dto.Number);
 
@@ -237,8 +229,6 @@ namespace Smart.Business.Services.InternalServices.Abstractions
 
         private void CheckConfirmationNumber(int? userConfirmationNumber, int number)
         {
-            Console.WriteLine($"Checking: DB Code = {userConfirmationNumber}, Input Code = {number}");
-
             if (userConfirmationNumber == null)
                 throw new Exception("Confirmation code is missing or expired.");
 

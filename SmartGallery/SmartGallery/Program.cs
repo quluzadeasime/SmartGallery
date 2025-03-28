@@ -26,7 +26,8 @@ builder.Services.AddEndpointsApiExplorer();
 //}
 //builder.configuration.addjsonfile(languagefilepath, optional: false, reloadonchange: true);
 
-builder.Configuration.AddJsonFile("C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\SmartGallery\\langauge.json", optional: false, reloadOnChange: true);
+//builder.Configuration.AddJsonFile("C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\SmartGallery\\langauge.json", optional: false, reloadOnChange: true);
+builder.Configuration.AddJsonFile("C:\\Users\\receb\\OneDrive\\Desktop\\SmartGallery\\SmartGallery\\SmartGallery\\langauge.json", optional: false, reloadOnChange: true);
 builder.Services.Configure<LanguageSettings>(builder.Configuration);
 builder.Services.Configure<AccountErrorMessages>(builder.Configuration.GetSection("AccountErrorMessages"));
 builder.Services.AddSingleton(sp => sp.GetRequiredService<IOptions<AccountErrorMessages>>().Value);

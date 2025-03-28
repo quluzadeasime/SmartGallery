@@ -14,10 +14,10 @@ namespace Smart.Business.Helpers
         public BankClient(HttpClient httpClient)
         {
             _httpClient = httpClient;
-            _httpClient.BaseAddress = new Uri("https://e-commerce.kapitalbank.az/api/");
+            _httpClient.BaseAddress = new Uri("https://txpgtst.kapitalbank.az/api");
             var basicAuthenticationValue =
                 Convert.ToBase64String(
-                    Encoding.ASCII.GetBytes("TerminalSys/E2550002:salam"));
+                    Encoding.ASCII.GetBytes("TerminalSys/kapital:kapital123"));
 
             _httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Basic", basicAuthenticationValue);
         }

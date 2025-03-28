@@ -1,10 +1,58 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\",
+  "WorkspaceRootPath": "C:\\Users\\receb\\OneDrive\\Desktop\\SmartGallery\\SmartGallery\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{28562DF2-87AF-4B20-AFC8-93A183FF8EEA}|SmartGallery\\Smart.API.csproj|c:\\users\\asime\\desktop\\smartgallery\\smartgallery\\smartgallery\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F0832F7A-2A6A-4DB9-8C9E-D6A7A3DCBC32}|Smart.Business\\Smart.Business.csproj|c:\\users\\receb\\onedrive\\desktop\\smartgallery\\smartgallery\\smart.business\\services\\externalservices\\abstractions\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0832F7A-2A6A-4DB9-8C9E-D6A7A3DCBC32}|Smart.Business\\Smart.Business.csproj|solutionrelative:smart.business\\services\\externalservices\\abstractions\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0832F7A-2A6A-4DB9-8C9E-D6A7A3DCBC32}|Smart.Business\\Smart.Business.csproj|c:\\users\\receb\\onedrive\\desktop\\smartgallery\\smartgallery\\smart.business\\services\\externalservices\\interfaces\\ipaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0832F7A-2A6A-4DB9-8C9E-D6A7A3DCBC32}|Smart.Business\\Smart.Business.csproj|solutionrelative:smart.business\\services\\externalservices\\interfaces\\ipaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28562DF2-87AF-4B20-AFC8-93A183FF8EEA}|SmartGallery\\Smart.API.csproj|c:\\users\\receb\\onedrive\\desktop\\smartgallery\\smartgallery\\smartgallery\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{28562DF2-87AF-4B20-AFC8-93A183FF8EEA}|SmartGallery\\Smart.API.csproj|solutionrelative:smartgallery\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28562DF2-87AF-4B20-AFC8-93A183FF8EEA}|SmartGallery\\Smart.API.csproj|c:\\users\\receb\\onedrive\\desktop\\smartgallery\\smartgallery\\smartgallery\\smart.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{28562DF2-87AF-4B20-AFC8-93A183FF8EEA}|SmartGallery\\Smart.API.csproj|solutionrelative:smartgallery\\smart.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28562DF2-87AF-4B20-AFC8-93A183FF8EEA}|SmartGallery\\Smart.API.csproj|c:\\users\\receb\\onedrive\\desktop\\smartgallery\\smartgallery\\smartgallery\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{28562DF2-87AF-4B20-AFC8-93A183FF8EEA}|SmartGallery\\Smart.API.csproj|solutionrelative:smartgallery\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28562DF2-87AF-4B20-AFC8-93A183FF8EEA}|SmartGallery\\Smart.API.csproj|c:\\users\\receb\\onedrive\\desktop\\smartgallery\\smartgallery\\smartgallery\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{28562DF2-87AF-4B20-AFC8-93A183FF8EEA}|SmartGallery\\Smart.API.csproj|solutionrelative:smartgallery\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0832F7A-2A6A-4DB9-8C9E-D6A7A3DCBC32}|Smart.Business\\Smart.Business.csproj|c:\\users\\receb\\onedrive\\desktop\\smartgallery\\smartgallery\\smart.business\\helpers\\bankclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0832F7A-2A6A-4DB9-8C9E-D6A7A3DCBC32}|Smart.Business\\Smart.Business.csproj|solutionrelative:smart.business\\helpers\\bankclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44C3739B-AF30-456B-9F68-A3E12BA7A68C}|Smart.Core\\Smart.Core.csproj|c:\\users\\receb\\onedrive\\desktop\\smartgallery\\smartgallery\\smart.core\\entities\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44C3739B-AF30-456B-9F68-A3E12BA7A68C}|Smart.Core\\Smart.Core.csproj|solutionrelative:smart.core\\entities\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44C3739B-AF30-456B-9F68-A3E12BA7A68C}|Smart.Core\\Smart.Core.csproj|c:\\users\\receb\\onedrive\\desktop\\smartgallery\\smartgallery\\smart.core\\enums\\eorderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44C3739B-AF30-456B-9F68-A3E12BA7A68C}|Smart.Core\\Smart.Core.csproj|solutionrelative:smart.core\\enums\\eorderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0832F7A-2A6A-4DB9-8C9E-D6A7A3DCBC32}|Smart.Business\\Smart.Business.csproj|c:\\users\\receb\\onedrive\\desktop\\smartgallery\\smartgallery\\smart.business\\services\\internalservices\\abstractions\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0832F7A-2A6A-4DB9-8C9E-D6A7A3DCBC32}|Smart.Business\\Smart.Business.csproj|solutionrelative:smart.business\\services\\internalservices\\abstractions\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28562DF2-87AF-4B20-AFC8-93A183FF8EEA}|SmartGallery\\Smart.API.csproj|c:\\users\\receb\\onedrive\\desktop\\smartgallery\\smartgallery\\smartgallery\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{28562DF2-87AF-4B20-AFC8-93A183FF8EEA}|SmartGallery\\Smart.API.csproj|solutionrelative:smartgallery\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44C3739B-AF30-456B-9F68-A3E12BA7A68C}|Smart.Core\\Smart.Core.csproj|c:\\users\\receb\\onedrive\\desktop\\smartgallery\\smartgallery\\smart.core\\entities\\identity\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44C3739B-AF30-456B-9F68-A3E12BA7A68C}|Smart.Core\\Smart.Core.csproj|solutionrelative:smart.core\\entities\\identity\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0832F7A-2A6A-4DB9-8C9E-D6A7A3DCBC32}|Smart.Business\\Smart.Business.csproj|c:\\users\\receb\\onedrive\\desktop\\smartgallery\\smartgallery\\smart.business\\dtos\\userdtos\\forgotpasswordresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0832F7A-2A6A-4DB9-8C9E-D6A7A3DCBC32}|Smart.Business\\Smart.Business.csproj|solutionrelative:smart.business\\dtos\\userdtos\\forgotpasswordresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,31 +62,174 @@
       "DocumentGroups": [
         {
           "DockedWidth": 1114,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\receb\\OneDrive\\Desktop\\SmartGallery\\SmartGallery\\SmartGallery\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "SmartGallery\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\receb\\OneDrive\\Desktop\\SmartGallery\\SmartGallery\\SmartGallery\\Properties\\launchSettings.json",
+              "RelativeToolTip": "SmartGallery\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-28T17:23:15.146Z",
+              "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Smart.API",
+              "DocumentMoniker": "C:\\Users\\receb\\OneDrive\\Desktop\\SmartGallery\\SmartGallery\\SmartGallery\\Smart.API.csproj",
+              "RelativeDocumentMoniker": "SmartGallery\\Smart.API.csproj",
+              "ToolTip": "C:\\Users\\receb\\OneDrive\\Desktop\\SmartGallery\\SmartGallery\\SmartGallery\\Smart.API.csproj",
+              "RelativeToolTip": "SmartGallery\\Smart.API.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-28T17:23:14.631Z",
+              "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\receb\\OneDrive\\Desktop\\SmartGallery\\SmartGallery\\SmartGallery\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "SmartGallery\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\receb\\OneDrive\\Desktop\\SmartGallery\\SmartGallery\\SmartGallery\\appsettings.Development.json",
+              "RelativeToolTip": "SmartGallery\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-28T17:23:03.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EOrderStatus.cs",
+              "DocumentMoniker": "C:\\Users\\receb\\OneDrive\\Desktop\\SmartGallery\\SmartGallery\\Smart.Core\\Enums\\EOrderStatus.cs",
+              "RelativeDocumentMoniker": "Smart.Core\\Enums\\EOrderStatus.cs",
+              "ToolTip": "C:\\Users\\receb\\OneDrive\\Desktop\\SmartGallery\\SmartGallery\\Smart.Core\\Enums\\EOrderStatus.cs",
+              "RelativeToolTip": "Smart.Core\\Enums\\EOrderStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T17:16:10.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Transaction.cs",
+              "DocumentMoniker": "C:\\Users\\receb\\OneDrive\\Desktop\\SmartGallery\\SmartGallery\\Smart.Core\\Entities\\Transaction.cs",
+              "RelativeDocumentMoniker": "Smart.Core\\Entities\\Transaction.cs",
+              "ToolTip": "C:\\Users\\receb\\OneDrive\\Desktop\\SmartGallery\\SmartGallery\\Smart.Core\\Entities\\Transaction.cs",
+              "RelativeToolTip": "Smart.Core\\Entities\\Transaction.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAABMAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T17:12:33.603Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\SmartGallery\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "SmartGallery\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\Asime\\Desktop\\SmartGallery\\SmartGallery\\SmartGallery\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "SmartGallery\\Controllers\\AccountController.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Title": "PaymentService.cs",
+              "DocumentMoniker": "C:\\Users\\receb\\OneDrive\\Desktop\\SmartGallery\\SmartGallery\\Smart.Business\\Services\\ExternalServices\\Abstractions\\PaymentService.cs",
+              "RelativeDocumentMoniker": "Smart.Business\\Services\\ExternalServices\\Abstractions\\PaymentService.cs",
+              "ToolTip": "C:\\Users\\receb\\OneDrive\\Desktop\\SmartGallery\\SmartGallery\\Smart.Business\\Services\\ExternalServices\\Abstractions\\PaymentService.cs",
+              "RelativeToolTip": "Smart.Business\\Services\\ExternalServices\\Abstractions\\PaymentService.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwCcAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T13:35:44.34Z",
+              "WhenOpened": "2025-03-28T16:55:55.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IPaymentService.cs",
+              "DocumentMoniker": "C:\\Users\\receb\\OneDrive\\Desktop\\SmartGallery\\SmartGallery\\Smart.Business\\Services\\ExternalServices\\Interfaces\\IPaymentService.cs",
+              "RelativeDocumentMoniker": "Smart.Business\\Services\\ExternalServices\\Interfaces\\IPaymentService.cs",
+              "ToolTip": "C:\\Users\\receb\\OneDrive\\Desktop\\SmartGallery\\SmartGallery\\Smart.Business\\Services\\ExternalServices\\Interfaces\\IPaymentService.cs",
+              "RelativeToolTip": "Smart.Business\\Services\\ExternalServices\\Interfaces\\IPaymentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T16:55:19.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BankClient.cs",
+              "DocumentMoniker": "C:\\Users\\receb\\OneDrive\\Desktop\\SmartGallery\\SmartGallery\\Smart.Business\\Helpers\\BankClient.cs",
+              "RelativeDocumentMoniker": "Smart.Business\\Helpers\\BankClient.cs",
+              "ToolTip": "C:\\Users\\receb\\OneDrive\\Desktop\\SmartGallery\\SmartGallery\\Smart.Business\\Helpers\\BankClient.cs",
+              "RelativeToolTip": "Smart.Business\\Helpers\\BankClient.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T16:51:16.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ForgotPasswordResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\receb\\OneDrive\\Desktop\\SmartGallery\\SmartGallery\\Smart.Business\\DTOs\\UserDTOs\\ForgotPasswordResponseDTO.cs",
+              "RelativeDocumentMoniker": "Smart.Business\\DTOs\\UserDTOs\\ForgotPasswordResponseDTO.cs",
+              "ToolTip": "C:\\Users\\receb\\OneDrive\\Desktop\\SmartGallery\\SmartGallery\\Smart.Business\\DTOs\\UserDTOs\\ForgotPasswordResponseDTO.cs",
+              "RelativeToolTip": "Smart.Business\\DTOs\\UserDTOs\\ForgotPasswordResponseDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T16:40:14.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AccountService.cs",
+              "DocumentMoniker": "C:\\Users\\receb\\OneDrive\\Desktop\\SmartGallery\\SmartGallery\\Smart.Business\\Services\\InternalServices\\Abstractions\\AccountService.cs",
+              "RelativeDocumentMoniker": "Smart.Business\\Services\\InternalServices\\Abstractions\\AccountService.cs",
+              "ToolTip": "C:\\Users\\receb\\OneDrive\\Desktop\\SmartGallery\\SmartGallery\\Smart.Business\\Services\\InternalServices\\Abstractions\\AccountService.cs",
+              "RelativeToolTip": "Smart.Business\\Services\\InternalServices\\Abstractions\\AccountService.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAvwH8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T16:15:10.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\receb\\OneDrive\\Desktop\\SmartGallery\\SmartGallery\\SmartGallery\\appsettings.json",
+              "RelativeDocumentMoniker": "SmartGallery\\appsettings.json",
+              "ToolTip": "C:\\Users\\receb\\OneDrive\\Desktop\\SmartGallery\\SmartGallery\\SmartGallery\\appsettings.json",
+              "RelativeToolTip": "SmartGallery\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-28T16:08:26.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\receb\\OneDrive\\Desktop\\SmartGallery\\SmartGallery\\Smart.Core\\Entities\\Identity\\User.cs",
+              "RelativeDocumentMoniker": "Smart.Core\\Entities\\Identity\\User.cs",
+              "ToolTip": "C:\\Users\\receb\\OneDrive\\Desktop\\SmartGallery\\SmartGallery\\Smart.Core\\Entities\\Identity\\User.cs",
+              "RelativeToolTip": "Smart.Core\\Entities\\Identity\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T16:43:18.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\receb\\OneDrive\\Desktop\\SmartGallery\\SmartGallery\\SmartGallery\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "SmartGallery\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\receb\\OneDrive\\Desktop\\SmartGallery\\SmartGallery\\SmartGallery\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "SmartGallery\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAhwHAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T16:15:10.292Z",
               "EditorCaption": ""
             }
           ]
