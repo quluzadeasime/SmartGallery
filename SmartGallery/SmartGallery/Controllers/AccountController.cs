@@ -1,4 +1,5 @@
-﻿using AppTech.Business.Validators.UserValidators;
+﻿
+using AppTech.Business.Validators.UserValidators;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -6,7 +7,6 @@ using Smart.API.Controllers.Commons;
 using Smart.Business.DTOs.UserDTOs;
 using Smart.Business.Services.InternalServices.Interfaces;
 using Smart.Business.Validators.UserValidators;
-using Smart.Core.Entities.Identity;
 using System.Security.Claims;
 
 namespace Smart.API.Controllers
@@ -33,9 +33,8 @@ namespace Smart.API.Controllers
         public async Task<IActionResult> RegisterAsync([FromBody] RegisterUserDTO dto)
         {
             var validations = await new RegisterUserDTOValidator().ValidateAsync(dto);
-            var registerResponse = await _accountService.RegisterAsync(dto);
 
-            return validations.IsValid ? Ok(registerResponse) :
+            return validations.IsValid ? Ok(await _accountService.RegisterAsync(dto)) :
                 BadRequest(new { Errors = validations.Errors.Select(e => e.ErrorMessage).ToList() });
         }
 
@@ -44,9 +43,13 @@ namespace Smart.API.Controllers
         public async Task<IActionResult> ConfirmEmailAsync([FromBody] ConfirmEmailDTO dto)
         {
             var validations = await new ConfirmEmailDTOValidator().ValidateAsync(dto);
+
+            if (!validations.IsValid)
+                BadRequest(new { Errors = validations.Errors.Select(e => e.ErrorMessage).ToList() });
+
             await _accountService.EmailConfirmationAsync(dto);
 
-            return validations.IsValid ? Ok() : BadRequest(new { Errors = validations.Errors.Select(e => e.ErrorMessage).ToList() });
+            return Ok();
         }
 
         [HttpPost("confirm-password")]

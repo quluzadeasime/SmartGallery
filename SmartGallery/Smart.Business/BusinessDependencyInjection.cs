@@ -36,22 +36,22 @@ namespace Smart.Business
         {
 
             // Internal Services
-
             services.AddScoped<IClaimService, ClaimService>();
             services.AddScoped<IBrandService, BrandService>();
             services.AddScoped<IColorService, ColorService>();
-            services.AddScoped<IEmailService, EmailService>();
             services.AddScoped<IContactService, ContactService>();
             services.AddScoped<IServiceService, ServiceService>();
             services.AddScoped<IProductService, ProductService>();
             services.AddScoped<ISettingService, SettingService>();
             services.AddScoped<IAccountService, AccountService>();
-            services.AddScoped<ILanguageService, LanguageService>();
             services.AddScoped<ICategoryService, CategoryService>();
             services.AddScoped<ISubscriptionService, SubscriptionService>();
             services.AddScoped<ISpecificationService, SpecificationService>();
 
             // External Services
+            services.AddScoped<IEmailService, EmailService>();
+            services.AddScoped<IPaymentService, PaymentService>();
+            services.AddScoped<ILanguageService, LanguageService>();
             services.AddScoped<IFileManagerService, FileManagerService>();
         }
 
